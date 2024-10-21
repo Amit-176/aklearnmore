@@ -1100,3 +1100,113 @@ section.trending-section h2 {
   color: black;
   font-weight: 600;
 }
+
+/* Article page css */
+section.article-section {
+  width: 90%;
+  margin: auto;
+  /* background: aqua; */
+  height: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.heading-article h2 {
+  font-size: 32px;
+  padding: 60px 0px 28px;
+  font-weight: 600;
+  font-family: monospace;
+  text-align: center;
+}
+.heading-article p {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 35px;
+}
+.article-heading-img img {
+  width: 100%;
+  height: 376px;
+  border-radius: 15px;
+}
+.article-paragraph p {
+  width: 65%;
+  font-size: 18px;
+  text-align: justify;
+  margin: 40px auto;
+}
+.article-paragraph-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-paragraph-img img {
+  width: 50%;
+  padding: 8px;
+  border-radius: 20px;
+}
+.article-related h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px 10px 40px;
+}
+.article-related-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article-related-post-1,
+.article-related-post-2,
+.article-related-post-3 {
+  width: 100%;
+  height: 100%;
+}
+.article-related-post-1 img {
+  width: 100%;
+  height: 265px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.article-related-post-1 h4 {
+  font-size: 18px;
+  text-align: center;
+  padding: 7px 0px;
+}
+.article-related-post-1 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.article-related-post-2 img {
+  width: 100%;
+  height: 265px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.article-related-post-2 h4 {
+  font-size: 18px;
+  text-align: center;
+  padding: 7px 0px;
+}
+.article-related-post-2 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.article-related-post-3 img {
+  width: 100%;
+  height: 265px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.article-related-post-3 h4 {
+  font-size: 18px;
+  text-align: center;
+  padding: 7px 0px;
+}
+.article-related-post-3 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+}
