@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
     <link rel="shortcut icon" href="Images/logo.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,10 +56,15 @@
         </h5>
         <fieldset>
           <form action="">
-            <label for="firstname">First Name</label>
+            <label for="firstname"
+              >First Name<sup style="font-size: 10px; color: red"
+                >&starf;</sup
+              ></label
+            >
             <input
               type="text"
               name="firstname"
+              required
               id="firstname"
               placeholder="Enter First Name"
             />
@@ -79,18 +84,25 @@
               id="lastname"
               placeholder="Enter Last Name"
             /><br />
-            <label for="email">Email</label>
+            <label for="email"
+              >Email<sup style="font-size: 10px; color: red"
+                >&starf;</sup
+              ></label
+            >
             <input
               type="text"
               name="email"
+              required
               id="email"
               placeholder="Enter Email"
             /><br />
-            <label for="name">Message</label>
+            <label for="name">Message<sup style="font-size: 10px; color: red"
+                >&starf;</sup></label>
             <textarea
               name=""
               id="message"
               rows="4"
+              required
               placeholder="Enter Your Queries"
             ></textarea
             ><br />
@@ -111,7 +123,7 @@
         <p>Monday-Sunday: 9:00AM-7:00PM</p>
       </div>
       <div class="find-us-loaction">
-        <img src="Images/loaction.png" alt="" width="100%">
+        <img src="Images/loaction.png" alt="" width="100%" />
       </div>
     </section>
     <!-- Footer Html -->
@@ -122,10 +134,11 @@
           <h2>AkLearn More</h2>
         </div>
         <div class="social-media">
-<a href="#"><i class="fa-brands fa-facebook facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook facebook"></i></a>
           <a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube youtube" ></i></a>
-          <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>        </div>
+          <a href="#"><i class="fa-brands fa-youtube youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+        </div>
       </div>
       <div class="footer-part-2">
         <div class="footer-part-2-topic-1">
