@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Article Page</title>
+    <title>Test Quiz Page</title>
     <link rel="shortcut icon" href="Images/logo.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js"></script>
@@ -47,54 +47,78 @@
       </nav>
     </header>
     <!-- Body part -->
-    <section class="article-section">
-      <div class="heading-article">
-        <h2>Article of Computer</h2>
+    <section class="test-computer-basic-section">
+      <div class="test-computer-basic-title">
+        <h2>Basic Computer</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-          atque iusto possimus exercitationem molestiae? Temporibus, quidem?
-          Asperiores atque necessitatibus quis? Fuga ab dolore obcaecati
-          voluptates.
+          इस O Level IT Tools Online Test में M1-R5.1 Old Paper Question,
+          Important MCQs on IT Tools और Repeated MCQs O Level Exam शामिल है | इस
+          O Level Online Test में से आपके Exam में Same Questions Same Option के
+          साथ आयेंगे| तो O Level Exam से पहले यह Test जरुर Solve करें|
         </p>
       </div>
-      <div class="article-heading-img">
-        <img src="Images/computer-article.jpg" alt="Computer Article" />
+      <div class="test-computer-basic">
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>1</p>
+          <button onclick="startQuiz(1)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>2</p>
+          <button onclick="startQuiz(2)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>3</p>
+          <button onclick="startQuiz(3)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>4</p>
+          <button onclick="startQuiz(4)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>5</p>
+          <button onclick="startQuiz(5)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>6</p>
+          <button onclick="startQuiz(6)">Start Test</button>
+        </div>
       </div>
-      <div class="article-paragraph">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa,
-          nobis illum corporis repellendus et at fugiat voluptatibus dignissimos
-          iusto ex minima aspernatur! <br />Illum ad ducimus asperiores natus
-          labore harum dicta adipisci aliquam! Doloremque dignissimos quia
-          temporibus nam accusantium itaque nemo neque odio maiores officia
-          dolor ut veniam, cumque asperiores, repellat aspernatur at eaque?
-          Saepe vel esse tenetur aut error.<br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
-          totam impedit tempora nemo numquam quam?
-        </p>
-      </div>
-      <div class="article-paragraph-img">
-        <img src="Images/computer-article-2.jpg" alt="" />
-        <img src="Images/computer-article-3.jpg" alt="" />
-      </div>
-      <div class="article-related">
-        <h3>Related article or Post</h3>
-        <div class="article-related-post">
-          <div class="article-related-post-1">
-            <img src="Images/computer-article-4.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
-          </div>
-          <div class="article-related-post-2">
-            <img src="Images/computer-article-5.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
-          </div>
-          <div class="article-related-post-3">
-            <img src="Images/computer-article-6.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
-          </div>
+      <div class="test-computer-basic">
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>7</p>
+          <button onclick="startQuiz(7)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>8</p>
+          <button onclick="startQuiz(8)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>9</p>
+          <button onclick="startQuiz(9)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>10</p>
+          <button onclick="startQuiz(10)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>11</p>
+          <button onclick="startQuiz(11)">Start Test</button>
+        </div>
+        <div class="test-computer-basic-content">
+          <h3>Practice Set</h3>
+          <p>12</p>
+          <button onclick="startQuiz(12)">Start Test</button>
         </div>
       </div>
     </section>
@@ -146,5 +170,12 @@
       <hr />
       <p>Ak Learn More &copy; 2024 - All Rights Reserved</p>
     </div>
+    <script>
+      function startQuiz(setNumber) {
+        // Navigate to the quiz page with the selected set number as a query parameter
+        window.location.href = `computer-basic-quiz.html?set=${setNumber}`;
+        //console.log(setNumber);
+      }
+    </script>
   </body>
 </html>

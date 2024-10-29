@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Article Page</title>
+    <title>Test Quiz Page</title>
     <link rel="shortcut icon" href="Images/logo.ico" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -46,58 +45,50 @@
         </div>
       </nav>
     </header>
+
     <!-- Body part -->
-    <section class="article-section">
-      <div class="heading-article">
-        <h2>Article of Computer</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-          atque iusto possimus exercitationem molestiae? Temporibus, quidem?
-          Asperiores atque necessitatibus quis? Fuga ab dolore obcaecati
-          voluptates.
-        </p>
-      </div>
-      <div class="article-heading-img">
-        <img src="Images/computer-article.jpg" alt="Computer Article" />
-      </div>
-      <div class="article-paragraph">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa,
-          nobis illum corporis repellendus et at fugiat voluptatibus dignissimos
-          iusto ex minima aspernatur! <br />Illum ad ducimus asperiores natus
-          labore harum dicta adipisci aliquam! Doloremque dignissimos quia
-          temporibus nam accusantium itaque nemo neque odio maiores officia
-          dolor ut veniam, cumque asperiores, repellat aspernatur at eaque?
-          Saepe vel esse tenetur aut error.<br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
-          totam impedit tempora nemo numquam quam?
-        </p>
-      </div>
-      <div class="article-paragraph-img">
-        <img src="Images/computer-article-2.jpg" alt="" />
-        <img src="Images/computer-article-3.jpg" alt="" />
-      </div>
-      <div class="article-related">
-        <h3>Related article or Post</h3>
-        <div class="article-related-post">
-          <div class="article-related-post-1">
-            <img src="Images/computer-article-4.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
+    <section class="computer-basic-1-section">
+      <a href="test-msword.html" title="Go To Back"
+        ><i class="fa fa-arrow-circle-left" aria-hidden="true"></i
+      ></a>
+      <div class="container">
+        <div class="quiz">
+          <div id="quiz" class="quiz-container">
+            <div id="question">Question will appear here</div>
+            <div class="question-container">
+              <input type="radio" id="opt1" name="option" value="0" />
+              <label for="opt1" id="opt1-label"></label><br />
+              <input type="radio" id="opt2" name="option" value="1" />
+              <label for="opt2" id="opt2-label"></label><br />
+              <input type="radio" id="opt3" name="option" value="2" />
+              <label for="opt3" id="opt3-label"></label><br />
+              <input type="radio" id="opt4" name="option" value="3" />
+              <label for="opt4" id="opt4-label"></label>
+            </div>
+            <button id="prev-btn" class="hidden" onclick="previousQuestion()">
+              Previous
+            </button>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="submit-btn" onclick="showResult()" class="hidden">
+              Submit
+            </button>
           </div>
-          <div class="article-related-post-2">
-            <img src="Images/computer-article-5.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
+
+          <div id="nav-container" class="nav-container">
+            <h3>Question Navigation</h3>
+            <div id="question-nav"></div>
           </div>
-          <div class="article-related-post-3">
-            <img src="Images/computer-article-6.jpg" alt="" />
-            <h4>Title: Lorem ipsum dolor sit.</h4>
-            <p>Author: Lorem, ipsum.</p>
-          </div>
+        </div>
+
+        <div id="result" class="hidden">
+          <h2>Your Result</h2>
+          <p id="score"></p>
+          <div id="review"></div>
+          <button onclick="restartQuiz()">Restart Quiz</button>
         </div>
       </div>
     </section>
+
     <!-- Footer Html -->
     <footer class="footer">
       <div class="footer-part-1">
@@ -146,5 +137,6 @@
       <hr />
       <p>Ak Learn More &copy; 2024 - All Rights Reserved</p>
     </div>
+    <script src="js/computer-basic-quiz.js"></script>
   </body>
 </html>
