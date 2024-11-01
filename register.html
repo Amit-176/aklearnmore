@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MS Word Practice Sets</title>
+    <title>Register Page</title>
     <link rel="shortcut icon" href="Images/logo.ico" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,50 +50,60 @@
         </div>
       </nav>
     </header>
-
     <!-- Body part -->
-    <section class="computer-basic-1-section">
-      <a href="test-msword.html" title="Go To Back"
-        ><i class="fa fa-arrow-circle-left" aria-hidden="true"></i
-      ></a>
-      <div class="container">
-        <div class="quiz">
-          <div id="quiz" class="quiz-container">
-            <div id="question">Question will appear here</div>
-            <div class="question-container">
-              <input type="radio" id="opt1" name="option" value="0" />
-              <label for="opt1" id="opt1-label"></label><br />
-              <input type="radio" id="opt2" name="option" value="1" />
-              <label for="opt2" id="opt2-label"></label><br />
-              <input type="radio" id="opt3" name="option" value="2" />
-              <label for="opt3" id="opt3-label"></label><br />
-              <input type="radio" id="opt4" name="option" value="3" />
-              <label for="opt4" id="opt4-label"></label>
-            </div>
-            <button id="prev-btn" class="hidden" onclick="previousQuestion()">
-              Previous
-            </button>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
-            <button id="submit-btn" onclick="showResult()" class="hidden">
-              Submit
-            </button>
+    <section class="sign-up-section">
+      <h1>Sign Up</h1>
+      <div class="sign-up">
+      <form action="">
+          <div class="sign-up-part-1">
+          <div class="name">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" required placeholder="Enter Name" />
           </div>
-
-          <div id="nav-container" class="nav-container">
-            <h3>Question Navigation</h3>
-            <div id="question-nav"></div>
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" required placeholder="Enter Email" />
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <input type="text" required placeholder="Enter Phone" />
+          </div>
+          <div class="address">
+            <i class="fa-solid fa-address-book"></i>
+            <input type="text" required placeholder="Enter Address" />
+          </div>
+          <div class="password">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="confirm-password">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Enter Confirm Password"
+            />
+          </div>
+          <div class="terms-condition">
+            <input type="checkbox" required name="" id="terms" />
+            <label for="terms">I agree all statement in Terms of service</label>
+          </div>
+          <div class="register-button">
+            <button type="submit">Register</button>
           </div>
         </div>
-
-        <div id="result" class="hidden">
-          <h2>Your Result</h2>
-          <p id="score"></p>
-          <div id="review"></div>
-          <button onclick="restartQuiz()">Restart Quiz</button>
+      </form>
+        <div class="sign-up-part-2">
+          <img src="Images/sign-up-img.avif" alt="" width="50%" />
         </div>
       </div>
     </section>
-
     <!-- Footer Html -->
     <footer class="footer-section">
       <div class="footer">
@@ -143,6 +154,5 @@
         <p>Ak Learn More &copy; 2024 - All Rights Reserved</p>
       </div>
     </footer>
-    <script src="js/msword-quiz.js"></script>
   </body>
 </html>
