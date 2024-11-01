@@ -2004,10 +2004,10 @@ function loadPracticeSet() {
   const setNumber = urlParams.get("set");
 
   // Debugging line to see all URL parameters
-  console.log("URL Parameters:", Array.from(urlParams.entries()));
+  //console.log("URL Parameters:", Array.from(urlParams.entries()));
 
   // Check if setNumber is retrieved correctly
-  console.log(`Set Number: ${setNumber}`); // Should log the set number or null
+  //console.log(`Set Number: ${setNumber}`); // Should log the set number or null
 
   if (practiceSets[setNumber]) {
     quizData = practiceSets[setNumber];

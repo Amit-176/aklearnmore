@@ -86,6 +86,12 @@ body {
 }
 
 /* footer css start */
+footer.footer-section {
+  width: 100%;
+  position: relative;
+  background: #302d2d;
+  color: #fff;
+}
 .footer {
   width: 100%;
   height: 270px;
@@ -122,7 +128,7 @@ body {
   margin-right: 70px;
 }
 .social-media a {
-  color: black;
+  color: rgb(255, 255, 255);
   opacity: 0.8;
 }
 .social-media .facebook:hover {
@@ -166,16 +172,15 @@ body {
 .underline {
   width: 125px;
   height: 4px;
-  background: #00ff5e73;
+  background: white;
   border-radius: 3px;
   position: absolute;
-  /* top: 23px; */
   overflow: hidden;
 }
 .underline span {
   width: 30px;
   height: 100%;
-  background-image: linear-gradient(to right, red, rgba(48, 3, 170, 0.507));
+  background-image: linear-gradient(to right, #ff0000, rgb(63 0 255 / 86%));
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -191,7 +196,7 @@ body {
   }
 }
 .footer-copyride-symbole {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .footer-copyride-symbole hr {
@@ -202,6 +207,9 @@ body {
   padding: 7px;
   font-size: 20px;
   font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 
 /* Body section css */
@@ -609,8 +617,9 @@ section.recent-video {
 .playlist-video {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 125px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
   margin: 60px 0px 40px;
 }
 .playlist-video-1 {
@@ -1407,10 +1416,10 @@ section.computer-basic-1-section {
   position: relative;
 }
 section.computer-basic-1-section i {
-    position: absolute;
-    left: 82px;
-    top: 38px;
-    font-size: 40px;
+  position: absolute;
+  left: 82px;
+  top: 38px;
+  font-size: 40px;
 }
 .container {
   width: 100%;
@@ -1554,4 +1563,174 @@ p#score {
 }
 .hidden {
   display: none;
+}
+
+/* **************** Register Page CSS ********************* */
+section.sign-up-section {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+section.sign-up-section h1 {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding: 30px 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.sign-up {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+.sign-up-part-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sign-up form {
+  all: inherit;
+}
+.sign-up-part-1 .name input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .name {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .name i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.sign-up-part-1 .email input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .email {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .email i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.sign-up-part-1 .phone input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .phone {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .phone i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.sign-up-part-1 .address input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .address {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .address i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.sign-up-part-1 .password input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .password {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .password i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.sign-up-part-1 .confirm-password input {
+  width: 80%;
+  border-radius: 9px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid grey;
+}
+.sign-up-part-1 .confirm-password {
+  display: flex;
+  align-items: center;
+}
+.sign-up-part-1 .confirm-password i {
+  position: absolute;
+  margin-left: 68px;
+  font-size: 20px;
+}
+.terms-condition {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-left: 55px;
+  margin-bottom: 12px;
+}
+.terms-condition label {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: cursive;
+}
+.register-button {
+  display: flex;
+  align-items: center;
+}
+.register-button button {
+  border-radius: 25px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 55px;
+  cursor: pointer;
+  padding: 12px 20px;
+  box-shadow: 1px 1px 9px gray;
+}
+.sign-up-part-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sign-up-part-2 img {
+  width: 100%;
+  height: 460px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 18px grey;
 }
