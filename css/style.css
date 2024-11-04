@@ -1714,6 +1714,7 @@ section.sign-up-section h1 {
   align-items: center;
 }
 .register-button button {
+  width: 80%;
   border-radius: 25px;
   background: #000;
   color: #fff;
@@ -1722,6 +1723,20 @@ section.sign-up-section h1 {
   cursor: pointer;
   padding: 12px 20px;
   box-shadow: 1px 1px 9px gray;
+}
+.sign-in-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+}
+.sign-in-button p, a {
+  font-size: 19px;
+  font-weight: 500;
+  word-spacing: 2px;
+}
+.sign-in-button a {
+text-decoration: none;
 }
 .sign-up-part-2 {
   width: 100%;
@@ -1789,4 +1804,15 @@ section.login-section h2 {
   color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
+}
+.sign-up-button {
+  padding: 5px 12px;
+}
+.sign-up-button p, a {
+    font-size: 19px;
+    font-weight: 500;
+    word-spacing: 2px;
+  }
+.sign-up-button a {
+    text-decoration: none;
 }
