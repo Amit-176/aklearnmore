@@ -9,11 +9,11 @@ function showSlides(n) {
 
   // Check if slides and dots are correctly selected
   if (slides.length === 0) {
-    console.error("No slides found with the class 'mySlides'.");
+    // console.error("No slides found with the class 'mySlides'.");
     return; // Exit the function if no slides exist
   }
   if (dots.length === 0) {
-    console.error("No dots found with the class 'dot'.");
+    // console.error("No dots found with the class 'dot'.");
     return; // Exit the function if no dots exist
   }
 
