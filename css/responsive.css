@@ -1,0 +1,272 @@
+/* ***************For medium to large desktops.***************** */
+@media (max-width: 1080px) {
+    /* **********Header responsive css********** */
+    .nav-part1 {
+        gap: 15px;
+        margin-left: 13px;
+    }
+    .nav-part1 img {
+        width: 85px;
+    }
+    .nav-part1 h2 {
+        font-size: 18px;
+    }
+    .nav-part2 ul {
+        gap: 1.3em;
+    }
+    .nav-part2 ul li a {
+        font-size: 16px;
+    }
+    .nav-part2 ul li button {
+        font-size: 14px;
+    }
+    /* ***********Footer responsive csss*************** */
+    .footer-logo { 
+        gap: 16px;
+        margin-left: 10px;
+    }
+    .footer-logo img {
+        width: 85px;
+        margin-top: 14px;
+    }
+    .footer-logo h2 {
+        font-size: 20px;
+    }
+    .footer-logo {
+        gap: 16px;
+    }
+    .social-media {
+        margin-right: 30px;
+        padding-bottom: 8px;
+    }
+    .social-media i {
+        font-size: 22px;
+    }
+    .footer-logo h2 {
+        font-size: 20px;
+    }
+    /* **********Slider responsive css*************** */
+    .mySlides.fade img {
+        height: 350px;
+    }
+    .prev, .next {
+        font-size: 40px;
+    }
+    .text {
+        padding: 6px 12px;
+    }
+}
+/* ********************Small desktops and large tablets.************************ */
+@media (max-width:900px) {
+    /* **********Header responsive css********** */
+    .nav {
+        height: 85px;
+    }
+    .slider-section {
+        margin-top: 85px;
+    }
+    .nav-part1 {      
+        gap: 10px;
+        margin-left: 6px;
+    }
+    .nav-part1 img {
+        width: 70px;
+    }
+    .nav-part1 h2 {
+        font-size: 16px;
+    }
+    .nav-part2 ul {
+        gap: 0.7em;
+    }
+    .nav-part2 ul li a {
+        font-size: 13px;
+    }
+    .nav-part2 ul li button {
+        font-size: 12px;
+    }
+     /* ***********Footer responsive csss*************** */
+     .footer-logo img {
+        width: 70px;
+    }
+    .footer-logo {
+        gap: 14px;
+        margin-top: 4px;
+    }
+    .footer-logo h2 {
+        font-size: 16px;
+    }
+    .social-media {
+        margin-left: 50px;
+        gap: 22px;
+    }
+    .footer-part-2 {
+       
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 22px;
+    }
+    .footer-part-2-topic-1 p {
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .footer-part-2-topic-2 p {
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .footer-part-2-topic-3 p {
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .footer-copyride-symbole p {    
+        font-size: 18px;
+    }
+    .underline {
+        width: 105px;
+    }
+    @keyframes line_animation {
+        from {
+          left: -30px;
+        }
+        to {
+          left: 120px;
+        }
+      }
+      /* *********Slider responsive css*************** */
+      .mySlides.fade img {
+        height: 250px;
+    }
+    .prev, .next {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+/* ********************Smaller tablets.******************** */
+@media (max-width: 720px) {
+    /* **********Header responsive css********** */
+    .nav {
+    height: 80px;
+}
+    .slider-section {
+        margin-top: 80px;
+    }
+    .nav-part2 {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        font-size: 30px;
+    }
+    .nav-part1 {
+        width: 50%;
+    }
+      /* ***********Footer responsive csss*************** */    
+      .footer-part-1 {
+        width: 35%;
+    }
+    .footer-part-2 {
+        width: 65%;
+    }
+    .footer-copyride-symbole p {
+        font-size: 16px;
+    }
+    .footer-part-2-topic-1 p {
+        line-height: 45px;
+        font-size: 15px;
+    }
+    .footer-part-2-topic-2 p {
+        line-height: 45px;
+        font-size: 15px;
+    }
+    .footer-part-2-topic-3 p {
+        line-height: 45px;
+        font-size: 15px;
+    }
+   /* *********Slider responsive css*************** */
+   .mySlides.fade img {
+    height: 210px;
+    }
+    .prev, .next {
+        font-size: 25px;
+    }
+    .text {
+        padding: 4px 12px;
+    }
+}
+/* ***************** Small tablets and large phones.******************* */
+@media (max-width: 640px) {
+    /* **********Header responsive css********** */
+    .hamburger-menu {
+        right: 40px;
+    }
+      /* ***********Footer responsive csss*************** */
+    .footer {
+        flex-wrap: wrap-reverse;
+    }
+    .footer-part-1 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .footer-part-2 {
+        width: 100%;
+        height: auto;
+    }
+    .footer-part-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .footer-logo h2 {
+        font-size: 14px;
+    }
+    .social-media {
+        margin-top: 0px;
+        margin-right: 12px;
+        padding-bottom: 0px;
+    }
+    .footer-copyride-symbole p {
+        font-size: 15px;
+    }
+    .footer-logo {
+        gap: 16px;
+        margin-left: -4px;
+    }
+    /* *********Slider responsive css*************** */
+    .mySlides.fade img {
+        height: 200px;
+    }
+    .prev, .next {
+        font-size: 22px;
+    }
+    .text {
+        padding: 2px 12px;
+    }
+    .prev, .next {
+        margin-top: -43px;
+    }
+}
+/* **************** For medium-sized mobile devices.****************** */
+@media (max-width: 480px) {
+    /* **********Header responsive css********** */
+    .nav-part1 {
+        width: 80%;
+    }
+    /* *********Slider responsive css*************** */
+    .mySlides.fade img {
+        height: 170px;
+    }
+    .prev, .next {
+        font-size: 20px;
+    }
+    .text {
+        padding: 0px;
+    }
+    .prev, .next {
+        margin-top: -40px;
+    }
+}
+
