@@ -97,7 +97,64 @@
     .recent-title-description-2 button {
         margin: 3px 20px;
     }
-
+    .recent-video-1 {
+        margin-bottom: 50px;
+    }
+    .recent-video-2 {
+        margin-bottom: 45px;
+    }
+/* **********Playlist Section responsive css*************** */
+    .playlist-video {
+        gap: 30px;
+        margin: 35px 0px 20px;
+    }
+    .playlist-video-section h2 {
+        font-size: 25px;
+    }
+    .playlist-video-1 {
+        height: 365px;
+    }
+    .playlist-video-2 {
+        height: 365px;
+    }
+    .playlist-video-3 {
+        height: 365px;
+    }
+    .playlist-video-1 img {
+        height: 230px;
+    }
+    .playlist-video-2 img {
+        height: 230px;
+    }
+    .playlist-video-3 img {
+        height: 230px;
+    }
+    /* **********Review Section responsive css*************** */
+    .video-reviews {
+        margin: 35px 0px 110px;
+        gap: 35px;
+    }
+    .video-reviews-part-1 {
+        padding: 15px;
+    }
+    .video-reviews-part-1 h3 {
+        font-size: 18px;
+    }
+    .reviews-part-1-img-name {
+        padding-top: 18px;
+    }
+    .reviews-part-1-img-name img {
+        width: 100px;
+        height: 100px;
+    }
+    .reviews-part-1-img-name h3 {
+        font-size: 19px;
+        padding-left: 12px;
+    }
+    section.video-reviews-section h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width:900px) {
@@ -272,7 +329,85 @@
             font-size: 13px; 
             margin: 3px 20px;
         }
-    
+    /* **********Playlist Section responsive css*************** */
+    .playlist-video-section h2 {
+        font-size: 22px;
+    }
+    .playlist-video {
+        gap: 20px;
+        margin: 25px 0px 20px;
+    }
+    .playlist-video-1 img {
+        height: 190px;
+    }
+    .playlist-video-1 h4 {
+        font-size: 20px;
+    }
+    .playlist-video-1 p {
+        font-size: 15px;
+        padding: 9px;
+    }
+    .playlist-video-1 {
+        height: 325px;
+    }
+    .playlist-video-2 img {
+        height: 190px;
+    }
+    .playlist-video-2 h4 {
+        font-size: 20px;
+    }
+    .playlist-video-2 p {
+        font-size: 15px;
+        padding: 9px;
+    }
+    .playlist-video-2 {
+        height: 325px;
+    }
+    .playlist-video-3 img {
+        height: 190px;
+    }
+    .playlist-video-3 h4 {
+        font-size: 20px;
+    }
+    .playlist-video-3 p {
+        font-size: 15px;
+        padding: 9px;
+    }
+    .playlist-video-3 {
+        height: 325px;
+    }
+    /* **********Review Section responsive css*************** */
+    section.video-reviews-section h2 {
+        font-size: 22px;
+    }
+    .video-reviews {
+        margin: 25px 0px 90px;
+        gap: 20px;
+    }
+    .video-reviews-part-1 {
+        padding: 10px;
+    }
+    .video-reviews-part-1 h3 {
+        font-size: 18px;
+    }
+    .reviews-part-1-img-name {
+        padding-top: 12px;
+    }
+    .reviews-part-1-img-name img {
+        width: 85px;
+        height: 85px;
+    }
+    .reviews-part-1-img-name h3 {
+        font-size: 18px;
+        padding-left: 8px;
+    }
+    .video-reviews-part-1 p {
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -315,6 +450,17 @@
         line-height: 45px;
         font-size: 15px;
     }
+    .underline {
+        width: 97px;
+    }
+    @keyframes line_animation {
+        from {
+          left: -30px;
+        }
+        to {
+          left: 112px;
+        }
+      }
    /* *********Slider responsive css*************** */
    .mySlides.fade img {
     height: 210px;
@@ -329,7 +475,110 @@
         height: 11px;
         width: 11px;
     }
-    /* **********Top Section responsive css*************** */
+    /* **********Recent Section responsive css*************** */
+    section.recent-video {
+        width: 95%;
+    }
+    .recent-video-1 {
+        height: 340px;
+    }
+    .recent-video-1 {
+        margin-bottom: 18px;
+    }
+    .recent-title-description-1 p {
+        font-size: 14px;
+        padding: 0px 8px;
+        line-height: 23px;
+    }
+    .recent-title-description-1 h4 {
+        margin: 0px 0px 3px 10px;
+    }
+    .recent-video-img-1 img {
+        height: 90%;
+    }
+    .recent-title-description-1 button {
+        font-size: 13px;
+        margin: 15px 20px;
+    }
+    .recent-title-description-2 h4 {
+        margin: 0px 0px 3px 10px;
+    }
+    .recent-video-2 {
+        height: 340px;
+    }
+    .recent-video-2 {
+        margin-bottom: 18px;
+    }
+    .recent-title-description-2 p {
+        font-size: 14px;
+        padding: 0px 8px;
+        line-height: 23px;
+    }
+    .recent-title-description-2 h4 {
+        margin: 0px 0px 10px 10px;
+    }
+    .recent-video-img-2 img {
+        height: 90%;
+    }
+    .recent-title-description-2 h4 {
+        margin: 0px 0px 3px 10px;
+    }
+        /* **********Playlist Section responsive css*************** */
+        .playlist-video-section {
+            width: 95%;
+        }
+        .playlist-video {
+            gap: 15px;
+            margin: 20px 0px 15px;
+        }
+        .playlist-video-1 img {
+            height: 170px;
+        }
+        .playlist-video-1 h4 {
+            font-size: 18px;
+        }
+        .playlist-video-1 p {
+            font-size: 14px;
+            padding: 8px;
+        }
+        .playlist-video-1 {
+            height: 300px;
+        }
+        .playlist-video-2 img {
+            height: 170px;
+        }
+        .playlist-video-2 h4 {
+            font-size: 18px;
+        }
+        .playlist-video-2 p {
+            font-size: 14px;
+            padding: 8px;
+        }
+        .playlist-video-2 {
+            height: 300px;
+        }
+        .playlist-video-3 img {
+            height: 170px;
+        }
+        .playlist-video-3 h4 {
+            font-size: 18px;
+        }
+        .playlist-video-3 p {
+            font-size: 14px;
+            padding: 8px;
+        }
+        .playlist-video-3 {
+            height: 300px;
+        }
+        /* **********Review Section responsive css*************** */
+        .video-reviews-part-1 h3 {
+            font-size: 16px;
+        }
+        .reviews-part-1-img-name img {
+            width: 80px;
+            height: 80px;
+        }
+    
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -399,6 +648,71 @@
     .top-video {
         gap: 30px;
     }
+    /* **********Recent Section responsive css*************** */
+    section.recent-video {
+        width: 95%;
+    }
+    .recent-video-1 {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+    .recent-title-description-1 h4 {
+        margin: 10px 0px 3px 10px;
+    }
+    .recent-video-2 {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .recent-title-description-2 h4 {
+        margin: 10px 0px 3px 10px;
+    }
+/* **********Playlist Section responsive css*************** */
+    .playlist-video {
+    margin: 10px 0px 0px;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+    .playlist-video-1 {
+        height: 300px;
+        width: 320px;
+    }
+    .playlist-video-2 {
+        height: 300px;
+        width: 320px;
+    }
+    .playlist-video-3 {
+        height: 300px;
+        width: 320px;
+    }
+    .playlist-video-1 img {
+        height: 180px;
+    }
+    .playlist-video-2 img {
+        height: 180px;
+    }
+    .playlist-video-3 img {
+        height: 180px;
+    }
+    /* **********Review Section responsive css*************** */
+    .video-reviews {
+        margin: 30px 0px 90px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .video-reviews-part-1 {
+        padding: 20px;
+    }
+    .reviews-part-1-img-name h3 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .video-reviews-part-1 p {
+        padding: 15px;
+    }
 }
 /* **************** For medium-sized mobile devices.****************** */
 @media (max-width: 480px) {
@@ -406,6 +720,18 @@
     .nav-part1 {
         width: 80%;
     }
+    /* **********Footer responsive css********** */
+    .underline {
+        width: 95px;
+    }
+    @keyframes line_animation {
+        from {
+          left: -30px;
+        }
+        to {
+          left: 110px;
+        }
+      }
     /* *********Slider responsive css*************** */
     .mySlides.fade img {
         height: 170px;
@@ -427,8 +753,33 @@
         width: 90%;
         top: 15px;
     }
+    /* **********Recent Section responsive css*************** */
+    .recent-video-img-1 {
+        padding-left: 14px;
+    }
+    .recent-title-description-1 {
+        padding: 0px 5px 0px;
+        line-height: 21px;
+    }
+    .recent-video-img-2 {
+        padding-left: 14px;
+    }
+    .recent-title-description-2 {
+        padding: 0px 5px 0px;
+        line-height: 21px;
+    }
+    .recent-title-description-1 button {
+        margin: 7px 8px;
+    }
+    .recent-title-description-2 button {
+        margin: 7px 8px;
+    }
 }
 @media (max-width: 340px){
+    /* *********Header Responsive css************* */
+    .hamburger-menu {
+        right: 25px;
+    }
     .content-section {
         width: 90%;
         top: 10px;
@@ -437,5 +788,51 @@
     .content-section h2 {
         font-size: 18px;
     }
+/* *********Footer Responsive css************* */
+    .footer-part-1 {
+        display: block;
+    }
+    .footer-logo h2 {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .footer-copyride-symbole p {
+        padding-top: 6px;
+        font-size: 18px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        padding-bottom: 10px;
+    }
+    .footer-part-2-topic-1 p {
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .footer-part-2-topic-2 p {
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .footer-part-2-topic-3 p {
+        line-height: 40px;
+        font-size: 14px;
+    }
+ /* **********Recent Section responsive css*************** */
+    .recent-title-description-1 p {
+        padding: 0px 1px;
+        line-height: 21px;
+    }
+    .recent-title-description-1 button {
+        margin: 6px 9px;
+    }
+    .recent-title-description-2 p {
+        padding: 0px 1px;
+        line-height: 21px;
+    }
+    .recent-title-description-2 button {
+        margin: 6px 9px;
+    }
+/* **********Playlist Section responsive css******************* */
+.playlist-video {
+    padding: 10px;
+}
 }
 
