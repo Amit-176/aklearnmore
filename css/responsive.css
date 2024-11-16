@@ -428,6 +428,9 @@
     .nav-part1 {
         width: 50%;
     }
+    .hamburger-menu .close-btn {
+        display: none;
+    }
       /* ***********Footer responsive csss*************** */    
       .footer-part-1 {
         width: 35%;
@@ -720,6 +723,9 @@
     .nav-part1 {
         width: 80%;
     }
+    .hamburger-menu {
+        right: 25px;
+    }
     /* **********Footer responsive css********** */
     .underline {
         width: 95px;
@@ -732,6 +738,16 @@
           left: 110px;
         }
       }
+      .footer-part-1 {
+        display: block;
+    }
+    .footer-part-2 {
+        margin: 0;
+    }
+    .footer-logo h2 {
+        font-size: 18px;
+        padding-left: 15px;
+    }
     /* *********Slider responsive css*************** */
     .mySlides.fade img {
         height: 170px;
@@ -754,18 +770,21 @@
         top: 15px;
     }
     /* **********Recent Section responsive css*************** */
+    section.recent-video {
+        width: 90%;
+    }
     .recent-video-img-1 {
-        padding-left: 14px;
+        padding-left: 0;
     }
     .recent-title-description-1 {
-        padding: 0px 5px 0px;
+        padding: 0;
         line-height: 21px;
     }
     .recent-video-img-2 {
-        padding-left: 14px;
+        padding-left: 0;
     }
     .recent-title-description-2 {
-        padding: 0px 5px 0px;
+        padding: 0;
         line-height: 21px;
     }
     .recent-title-description-1 button {
@@ -773,6 +792,11 @@
     }
     .recent-title-description-2 button {
         margin: 7px 8px;
+    }
+     /* **********Recent Section responsive css*************** */
+     .playlist-video-section h2 {
+        font-size: 22px;
+        padding-left: 10px;
     }
 }
 @media (max-width: 340px){
