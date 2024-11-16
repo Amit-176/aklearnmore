@@ -42,7 +42,7 @@ body {
   width: 95px;
 }
 .nav-part1 h2 {
-  font-size: 22px;
+  font-size: 25px;
 }
 .nav-part2 {
   width: 75%;
@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
 }
 .nav-part2 ul li a:hover {
   text-decoration: underline;
@@ -69,7 +69,7 @@ body {
 }
 .nav-part2 ul li button {
   border-radius: 23px;
-  font-size: 16px;
+  font-size: 20px;
   padding: 9px 9px;
   background: #000000;
   color: #fff;
@@ -123,7 +123,7 @@ footer.footer-section {
   margin-top: 23px;
 }
 .footer-logo h2 {
-  font-size: 22px;
+  font-size: 25px;
 }
 .social-media {
   display: flex;
@@ -135,7 +135,7 @@ footer.footer-section {
   padding-bottom: 10px;
 }
 .social-media i {
-  font-size: 25px;
+  font-size: 28px;
 }
 .social-media a {
   color: rgb(255, 255, 255);
@@ -167,20 +167,20 @@ footer.footer-section {
 .footer-part-2-topic-1 p {
   line-height: 50px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 .footer-part-2-topic-2 p {
   line-height: 50px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 .footer-part-2-topic-3 p {
   line-height: 50px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 .underline {
-  width: 125px;
+  width: 160px;
   height: 4px;
   background: white;
   border-radius: 3px;
@@ -202,7 +202,7 @@ footer.footer-section {
     left: -30px;
   }
   to {
-    left: 150px;
+    left: 185px;
   }
 }
 .footer-copyride-symbole {
@@ -215,7 +215,7 @@ footer.footer-section {
 .footer-copyride-symbole p {
   text-align: center;
   padding: 7px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   word-spacing: 2px;
   letter-spacing: 1px;
@@ -772,52 +772,50 @@ section.video-reviews-section h2 {
 
 /* *********************  about page css  ********************** */
 section.about-section {
-  width: 90%;
-  height: 750px;
-  /* background: aqua; */
+  width: 95%;
   margin: auto;
+  height: auto;
   position: relative;
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 section.about-section h2 {
   font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
   font-size: 45px;
   text-align: center;
+  padding: 25px;
 }
 .about-section-text-img {
-  width: 100%;
-  height: 500px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 30px;
+  gap: 30px;
 }
 .about-section-text {
-  width: 55%;
+  width: 100%;
+  height: 100%;
 }
 .about-section-img {
-  width: 40%;
+  width: 100%;
+  height: 100%;
 }
 .about-section-text h3 {
   font-size: 22px;
   font-weight: 500;
   line-height: 20px;
-  padding: 10px 20px 0px;
+  padding-bottom: 20px;
 }
 .about-section-text p {
   font-size: 18px;
   font-weight: 300;
-  line-height: 30px;
-  padding: 25px 20px 10px;
+  line-height: 27px;
   text-align: justify;
 }
 .about-section-img img {
-  width: 100%;
-  height: 570px;
-  border-radius: 20px;
+    width: 100%;
+    height: 580px;
+    border-radius: 20px;
 }
 
 /* ************* Contact Page Css******************* */
@@ -1735,13 +1733,14 @@ section.sign-up-section h1 {
   justify-content: center;
   padding-top: 13px;
 }
-.sign-in-button p, a {
+.sign-in-button p,
+a {
   font-size: 19px;
   font-weight: 500;
   word-spacing: 2px;
 }
 .sign-in-button a {
-text-decoration: none;
+  text-decoration: none;
 }
 .sign-up-part-2 {
   width: 100%;
@@ -1796,7 +1795,8 @@ section.login-section h2 {
   font-size: 20px;
 }
 .user-name,
-.user-password,.login-button {
+.user-password,
+.login-button {
   padding: 12px 0;
 }
 .login-button button {
@@ -1813,11 +1813,12 @@ section.login-section h2 {
 .sign-up-button {
   padding: 5px 12px;
 }
-.sign-up-button p, a {
-    font-size: 19px;
-    font-weight: 500;
-    word-spacing: 2px;
-  }
+.sign-up-button p,
+a {
+  font-size: 19px;
+  font-weight: 500;
+  word-spacing: 2px;
+}
 .sign-up-button a {
-    text-decoration: none;
+  text-decoration: none;
 }

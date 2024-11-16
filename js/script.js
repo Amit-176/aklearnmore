@@ -55,23 +55,21 @@ let slideInterval = setInterval(function () {
   plusSlides(1);
 }, 5000);
 
-
-
 // hamberger js
-const hamburgerMenu = document.getElementById("hamburgerMenu");
-const sideMenu = document.getElementById("sideMenu");
-const closeBtn = document.getElementById("closebtn");
+// const hamburgerMenu = document.getElementById("hamburgerMenu");
+// const sideMenu = document.getElementById("sideMenu");
+// const closeBtn = document.getElementById("closebtn");
 
-// Open menu
-hamburgerMenu.addEventListener("click", () => {
-  sideMenu.classList.toggle("active");
-  hamburgerMenu.classList.toggle("active");
-});
+// // Open menu
+// hamburgerMenu.addEventListener("click", () => {
+//   sideMenu.classList.toggle("active");
+//   hamburgerMenu.classList.toggle("active");
+// });
 
-// Close menu (Optional if clicking outside)
-document.addEventListener("click", (e) => {
-  if (!sideMenu.contains(e.target) && !hamburgerMenu.contains(e.target)) {
-    sideMenu.classList.remove("active");
-    hamburgerMenu.classList.remove("active");
-  }
-});
+// // Close menu (Optional if clicking outside)
+// document.addEventListener("click", (e) => {
+//   if (!sideMenu.contains(e.target) && !hamburgerMenu.contains(e.target)) {
+//     sideMenu.classList.remove("active");
+//     hamburgerMenu.classList.remove("active");
+//   }
+// });
