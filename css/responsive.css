@@ -43,6 +43,14 @@
   .about-section-img img {
     height: 640px;
   }
+  section.find-us {
+    padding: 25px 8%;
+    margin-top: 25px;
+}
+/* ****** Contact page*********** */
+.contact-form h2 {
+    font-size: 40px;
+}
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -249,6 +257,37 @@
   .article-related-post-3 img {
     height: 240px;
   }
+
+  /* ****** Contact page*********** */
+  .contact-form h2 {
+    font-size: 35px;
+}
+.contact-form h5 {
+    margin-bottom: 22px;
+}
+.contact-form fieldset {
+    width: 95%;
+}
+.contact-form label {
+    font-size: 18px;
+}
+.contact-form button {
+    font-size: 18px;
+}
+.find-us-text h2 {
+    font-size: 30px;
+}
+.find-us-text h4 {
+    font-size: 18px;
+    line-height: 1rem;
+}
+section.find-us {
+    padding: 20px 5%;
+    margin-top: 20px;
+}
+.find-us-loaction iframe {
+    height: 290px;
+}
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width: 900px) {
@@ -502,6 +541,9 @@
     text-align: justify;
   }
   /* **********About Page responsive css*************** */
+  section.about-section {
+    margin-top: 85px;
+}
   section.about-section h2 {
     font-size: 30px;
     padding: 10px;
@@ -523,6 +565,9 @@
   }
 
   /* **********Article page responsive css********** */
+  section.article-section {
+    margin-top: 85px;
+  }
   .heading-article h2 {
     font-size: 25px;
     padding: 15px 0px 18px;
@@ -574,6 +619,49 @@
     font-size: 14px;
     margin-bottom: 18px;
   }
+/* **********Contact page responsive css********** */
+  section.contact-section {
+    margin-top: 85px;
+}
+.contact-form h2 {
+  font-size: 30px;
+  line-height: 5rem;
+}
+.contact-form form {
+    width: 75%;
+    margin: 30px auto;
+}
+.contact-form {	
+    padding: 10px 0px;
+}
+.contact-form label {
+    font-size: 16px;
+}
+.contact-form input[type="text"] {
+    padding: 14px 15px;
+    font-size: 16px;
+}
+.contact-form h5 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.contact-form button {
+    font-size: 16px;
+}
+.contact-form textarea#message {
+    font-size: 16px;
+}
+.find-us-text h2 {
+    font-size: 25px;
+}
+.find-us-text h4 {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+.find-us-text p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -791,7 +879,8 @@
     gap: 20px;
   }
   .article-paragraph-img img {
-    width: 80%;
+    width: 100%;
+    padding: 8px 0px;
     height: 270px;
   }
   .article-related-post {
@@ -799,6 +888,7 @@
   }
   .article-related-post-1 img {
     height: 255px;
+    padding: 8px 0px;
   }
   .article-related-post-1 h4 {
     font-size: 18px;
@@ -810,6 +900,7 @@
   }
   .article-related-post-2 img {
     height: 255px;
+    padding: 8px 0px;
   }
   .article-related-post-2 h4 {
     font-size: 18px;
@@ -821,6 +912,7 @@
   }
   .article-related-post-3 img {
     height: 255px;
+    padding: 8px 0px;
   }
   .article-related-post-3 h4 {
     font-size: 18px;
@@ -830,6 +922,29 @@
     font-size: 18px;
     margin-bottom: 25px;
   }
+/* **********Contact page responsive css********** */
+  .contact-form h2 {
+    font-size:25px;
+    line-height: 4rem;
+}
+.contact-form h5 {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.find-us-text h2 {
+    font-size: 20px;
+}
+.find-us-text h4 {
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+.find-us-text p {
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+.find-us-loaction iframe {
+    height: 255px;
+}
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -983,6 +1098,92 @@
   }
 
   /* **********Article page responsive css********** */
+  .heading-article h2 {
+    font-size: 20px;
+    padding: 4px 0px 10px;
+}
+.heading-article p {
+  margin-bottom: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+.article-heading-img img {
+    height: 260px;
+}
+.article-paragraph p {
+    width: 100%;
+    margin: 20px auto;
+}
+.article-heading-img {
+  width: 90%;
+  margin: auto;
+}
+.article-heading-img img {
+  height: 240px;
+}
+.article-paragraph p {
+  width: 90%;
+  margin: 15px auto;
+  font-size: 15px;
+}
+.article-paragraph-img {
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+.article-related-post {
+  width: 90%;
+  margin: auto;
+}
+.article-related-post-1 h4 {
+  font-size: 16px;
+  padding: 4px 0px;
+}
+.article-related-post-1 p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.article-related-post-2 h4 {
+  font-size: 16px;
+  padding: 4px 0px;
+}
+.article-related-post-2 p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.article-related-post-3 h4 {
+  font-size: 16px;
+  padding: 4px 0px;
+}
+.article-related-post-3 p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+/* ********Contact Page********** */
+.contact-form h2 {
+  font-size: 22px;
+  line-height: 3rem;
+  font-weight: 600;
+}
+.contact-form h5 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.contact-form fieldset {
+  width: 100%;
+}
+.contact-form form {
+  width: 80%;
+  margin: 25px auto;
+}
+.find-us-text h4 {
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+.find-us-text p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 }
 /* **************** For medium-sized mobile devices.****************** */
 @media (max-width: 480px) {
@@ -992,7 +1193,8 @@
   }
   .hamburger-menu {
     right: 25px;
-  }
+    font-size: 25px;
+}
   /* **********Footer responsive css********** */
   .underline {
     width: 95px;
@@ -1083,6 +1285,43 @@
     font-size: 14px;
     line-height: 18px;
   }
+  /* **********Article Page responsive css*************** */
+  section.article-section {
+    width: 95%;
+}
+  .article-heading-img img {
+    height: 185px;
+}
+.heading-article h2 {
+  font-size: 18px;
+  padding: 2px 0px 5px;
+}
+.heading-article p {
+  margin-bottom: 20px;
+  width: 90%;
+  margin: 10px auto;
+font-size: 15px;
+}
+.article-paragraph p {
+  width: 90%;
+  margin: 10px auto;
+  font-size: 14px;
+}
+.article-paragraph-img img {
+  height: 200px;
+}
+.article-related-post-1 img {
+  height: 200px;
+}
+.article-related-post-2 img {
+  height: 200px;
+}
+.article-related-post-3 img {
+  height: 200px;
+}
+.article-related h3 {
+  font-size: 18px;
+}
 }
 @media (max-width: 340px) {
   /* *********Header Responsive css************* */
@@ -1143,21 +1382,10 @@
   .playlist-video {
     padding: 10px;
   }
-}
-/* kjhuhjisdfjhsdidslkfjsdlkjsdflkdfsj */
 
-.heading-article h2 {
-    font-size: 20px;
-    padding: 4px 0px 10px;
+  /* ********about page************* */
+  .about-section-text h3 {
+    font-size: 15px;
 }
-.heading-article p {
-    margin-bottom: 20px;
-}
-.article-heading-img img {
-    height: 260px;
-}
-.article-paragraph p {
-    width: 95%;
-    margin: 20px auto;
 }
 
