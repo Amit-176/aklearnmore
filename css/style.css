@@ -1128,11 +1128,11 @@ section.article-section {
   position: relative;
 }
 .heading-article h2 {
-  font-size: 32px;
-  padding: 60px 0px 28px;
-  font-weight: 600;
-  font-family: monospace;
-  text-align: center;
+    font-size: 35px;
+    padding: 50px 0px 28px;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
 }
 .heading-article p {
   font-size: 20px;
@@ -1145,7 +1145,7 @@ section.article-section {
   border-radius: 15px;
 }
 .article-paragraph p {
-  width: 65%;
+  width: 70%;
   font-size: 18px;
   text-align: justify;
   margin: 40px auto;
