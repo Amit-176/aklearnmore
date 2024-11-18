@@ -892,18 +892,19 @@ section.contact-section {
 }
 section.find-us {
   width: 100%;
-  padding: 20px 10%;
-  /* background: aqua; */
-  /* height: 530px; */
+  padding: 33px 10%;
   display: flex;
-  /* position: relative; */
   margin-top: 35px;
+  gap: 10px;
 }
 .find-us-text {
-  width: 50%;
+  width: 100%;
 }
 .find-us-loaction {
-  width: 50%;
+  width:100%;
+}
+.find-us-loaction iframe {
+  width: 100%;
 }
 .find-us-text h2 {
   font-size: 35px;
