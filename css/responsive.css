@@ -226,6 +226,29 @@
   .about-section-text {
     width: 120%;
   }
+
+  /* **********Article page responsive css********** */
+  .heading-article h2 {
+    font-size: 30px;
+    padding: 30px 0px 25px;
+  }
+  .article-paragraph p {
+    width: 80%;
+    margin: 35px auto;
+  }
+  .article-related h3 {
+    font-size: 25px;
+    margin: 25px 10px 33px;
+  }
+  .article-related-post-1 img {
+    height: 240px;
+  }
+  .article-related-post-2 img {
+    height: 240px;
+  }
+  .article-related-post-3 img {
+    height: 240px;
+  }
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width: 900px) {
@@ -498,6 +521,59 @@
   .about-section-img img {
     height: 460px;
   }
+
+  /* **********Article page responsive css********** */
+  .heading-article h2 {
+    font-size: 25px;
+    padding: 15px 0px 18px;
+  }
+  .heading-article p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .article-heading-img img {
+    height: 300px;
+  }
+  .article-paragraph p {
+    width: 85%;
+  }
+  .article-related h3 {
+    font-size: 22px;
+    margin: 25px 10px 20px;
+  }
+  .article-related-post-1 img {
+    height: 200px;
+  }
+  .article-related-post-2 img {
+    height: 200px;
+  }
+  .article-related-post-3 img {
+    height: 200px;
+  }
+  .article-related-post-1 h4 {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+  .article-related-post-1 p {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .article-related-post-2 h4 {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+  .article-related-post-2 p {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .article-related-post-3 h4 {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+  .article-related-post-3 p {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -687,6 +763,73 @@
     margin-bottom: 18px;
     margin-top: 90px;
   }
+
+  /* **********Article page responsive css********** */
+  .heading-article h2 {
+    font-size: 22px;
+    padding: 6px 0px 12px;
+  }
+  .heading-article p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .article-heading-img img {
+    height: 280px;
+  }
+  .article-paragraph p {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 16px;
+  }
+  .article-related h3 {
+    font-size: 20px;
+    margin: 15px 10px 10px;
+  }
+  .article-paragraph-img {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .article-paragraph-img img {
+    width: 80%;
+    height: 270px;
+  }
+  .article-related-post {
+    flex-wrap: wrap;
+  }
+  .article-related-post-1 img {
+    height: 255px;
+  }
+  .article-related-post-1 h4 {
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+  .article-related-post-1 p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .article-related-post-2 img {
+    height: 255px;
+  }
+  .article-related-post-2 h4 {
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+  .article-related-post-2 p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .article-related-post-3 img {
+    height: 255px;
+  }
+  .article-related-post-3 h4 {
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+  .article-related-post-3 p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -838,6 +981,8 @@
     font-size: 15px;
     line-height: 20px;
   }
+
+  /* **********Article page responsive css********** */
 }
 /* **************** For medium-sized mobile devices.****************** */
 @media (max-width: 480px) {
@@ -999,3 +1144,20 @@
     padding: 10px;
   }
 }
+/* kjhuhjisdfjhsdidslkfjsdlkjsdflkdfsj */
+
+.heading-article h2 {
+    font-size: 20px;
+    padding: 4px 0px 10px;
+}
+.heading-article p {
+    margin-bottom: 20px;
+}
+.article-heading-img img {
+    height: 260px;
+}
+.article-paragraph p {
+    width: 95%;
+    margin: 20px auto;
+}
+
