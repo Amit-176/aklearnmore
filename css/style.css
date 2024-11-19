@@ -813,9 +813,9 @@ section.about-section h2 {
   text-align: justify;
 }
 .about-section-img img {
-    width: 100%;
-    height: 580px;
-    border-radius: 20px;
+  width: 100%;
+  height: 580px;
+  border-radius: 20px;
 }
 
 /* ************* Contact Page Css******************* */
@@ -901,7 +901,7 @@ section.find-us {
   width: 100%;
 }
 .find-us-loaction {
-  width:100%;
+  width: 100%;
 }
 .find-us-loaction iframe {
   width: 100%;
@@ -1129,11 +1129,11 @@ section.article-section {
   position: relative;
 }
 .heading-article h2 {
-    font-size: 35px;
-    padding: 50px 0px 28px;
-    font-weight: 600;
-    font-family: monospace;
-    text-align: center;
+  font-size: 35px;
+  padding: 50px 0px 28px;
+  font-weight: 600;
+  font-family: monospace;
+  text-align: center;
 }
 .heading-article p {
   font-size: 20px;
@@ -2018,7 +2018,8 @@ section.login-section h2 {
 .sign-up-button {
   padding: 5px 12px;
 }
-.sign-up-button p, .sign-up-button a {
+.sign-up-button p,
+.sign-up-button a {
   font-size: 19px;
   font-weight: 500;
   word-spacing: 2px;
