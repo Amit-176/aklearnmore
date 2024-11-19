@@ -51,6 +51,35 @@
 .contact-form h2 {
     font-size: 40px;
 }
+/* Test quiz page */
+.testquiz-title {
+  height: 180px;
+}
+.testquiz-title h2 {
+  font-size: 35px;
+}
+.testquiz-online-1 h2 {
+  font-size: 20px;
+  height: 70px;
+}
+.testquiz-online-2 h2 {
+  font-size: 20px;
+  height: 70px;
+}
+.testquiz-online-3 h2 {
+  font-size: 20px;
+  height: 70px;
+}
+.testquiz-online-4 h2 {
+  font-size: 20px;
+  height: 70px;
+}
+.test-section {
+  width: 95%;
+margin: 55px auto;
+  justify-content: space-between;
+  gap: 20px;
+}
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -1409,7 +1438,7 @@ font-size: 15px;
   .about-section-text h3 {
     font-size: 15px;
 }
-  /* ********about page************* */
+  /* ********Contact page************* */
   .find-us-loaction iframe {
     height: 260px;
 }
