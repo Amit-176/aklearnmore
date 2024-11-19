@@ -56,20 +56,19 @@ let slideInterval = setInterval(function () {
 }, 5000);
 
 // hamberger js
-// const hamburgerMenu = document.getElementById("hamburgerMenu");
-// const sideMenu = document.getElementById("sideMenu");
-// const closeBtn = document.getElementById("closebtn");
+// script.js
+const hamburgerMenu = document.getElementById("hamburgerMenu"); // Hamburger icon
+const navmenu = document.getElementById("navMenu"); // Single menu
+const closebtn = document.getElementById("closebtn"); // Close button
 
-// // Open menu
-// hamburgerMenu.addEventListener("click", () => {
-//   sideMenu.classList.toggle("active");
-//   hamburgerMenu.classList.toggle("active");
-// });
+// Open menu on hamburger click
+hamburgerMenu.addEventListener("click", () => {
+  navmenu.classList.add("active"); // Show menu
+  closebtn.classList.add("active");
+});
 
-// // Close menu (Optional if clicking outside)
-// document.addEventListener("click", (e) => {
-//   if (!sideMenu.contains(e.target) && !hamburgerMenu.contains(e.target)) {
-//     sideMenu.classList.remove("active");
-//     hamburgerMenu.classList.remove("active");
-//   }
-// });
+// Close menu on close button click
+closebtn.addEventListener("click", () => {
+  navmenu.classList.remove("active"); // Hide menu
+});
+
