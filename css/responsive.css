@@ -50,7 +50,6 @@
   /* ****** Contact page*********** */
   .contact-form h2 {
     font-size: 40px;
-<<<<<<< HEAD
   }
   /* Test quiz page */
   .testquiz-title {
@@ -81,8 +80,7 @@
     justify-content: space-between;
     gap: 20px;
   }
-=======
-}
+
 /* Test quiz page */
 .testquiz-title {
   height: 180px;
@@ -112,7 +110,6 @@ margin: 55px auto;
   justify-content: space-between;
   gap: 20px;
 }
->>>>>>> b855e6e62bd5e92a9233a88d4c948a6b7a4c28a3
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -1499,11 +1496,8 @@ margin: 55px auto;
   /* ********about page************* */
   .about-section-text h3 {
     font-size: 15px;
-<<<<<<< HEAD
   }
-=======
 }
->>>>>>> b855e6e62bd5e92a9233a88d4c948a6b7a4c28a3
   /* ********Contact page************* */
   .find-us-loaction iframe {
     height: 260px;

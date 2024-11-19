@@ -2018,12 +2018,9 @@ section.login-section h2 {
 .sign-up-button {
   padding: 5px 12px;
 }
-<<<<<<< HEAD
 .sign-up-button p,
 .sign-up-button a {
-=======
 .sign-up-button p, .sign-up-button a {
->>>>>>> b855e6e62bd5e92a9233a88d4c948a6b7a4c28a3
   font-size: 19px;
   font-weight: 500;
   word-spacing: 2px;
