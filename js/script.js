@@ -57,18 +57,19 @@ let slideInterval = setInterval(function () {
 
 // hamberger js
 // script.js
-const hamburgerMenu = document.getElementById("hamburgerMenu"); // Hamburger icon
-const navmenu = document.getElementById("navMenu"); // Single menu
-const closebtn = document.getElementById("closebtn"); // Close button
+document.addEventListener("DOMContentLoaded", function () {
+  // Select the elements
+  const hamburgerMenu = document.getElementById("hamburgerMenu");
+  const navMenu = document.getElementById("navMenu");
+  const closeBtn = document.getElementById("closebtn");
+  // Hamburger menu click to open menu
+  hamburgerMenu.addEventListener("click", () => {
+    navMenu.classList.add("active");
+  });
 
-// Open menu on hamburger click
-hamburgerMenu.addEventListener("click", () => {
-  navmenu.classList.add("active"); // Show menu
-  closebtn.classList.add("active");
+  // Close button click to close menu
+  closeBtn.addEventListener("click", () => {
+    console.log("Before removal:", navMenu.classList);
+    navMenu.classList.remove("active");
+  });
 });
-
-// Close menu on close button click
-closebtn.addEventListener("click", () => {
-  navmenu.classList.remove("active"); // Hide menu
-});
-

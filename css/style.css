@@ -89,6 +89,9 @@ body {
   position: absolute;
   right: 50px;
 }
+.nav-part2 .close-btn{
+  display: none;  
+}
 /* *********************************footer css start****************** */
 footer.footer-section {
   width: 100%;
