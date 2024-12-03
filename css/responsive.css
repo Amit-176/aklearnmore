@@ -51,7 +51,8 @@
   .contact-form h2 {
     font-size: 40px;
   }
-  /* Test quiz page */
+
+  /* ****** Test quiz page ****** */
   .testquiz-title {
     height: 180px;
   }
@@ -80,6 +81,13 @@
     justify-content: space-between;
     gap: 20px;
   }
+  /* **********Courses page responsive************* */
+  .shop-courses-img img {
+    width: 500px;
+}
+.shop-title h2 {
+    font-size: 45px;
+}
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -317,6 +325,43 @@
   .find-us-loaction iframe {
     height: 290px;
   }
+  /* ****** test quiz page*********** */
+  .testquiz-title {
+    height: 155px;
+}
+.testquiz-title h2 {
+    font-size: 30px;
+}
+.test-section {
+  flex-flow: row wrap;
+  gap: 95px;
+  justify-content: center;
+}
+  /* **********Courses page responsive************* */
+  section.shop-courses {
+    gap: 20px;
+}
+.shop-courses-title {
+  padding: 20px;
+}
+.shop-title h2 {
+  font-size: 40px;
+  margin: 30px 0px;
+}
+.shop-courses-img img {
+  width: 420px;
+}
+.shop-courses-title h2 {
+  font-size: 40px;
+  margin: 18px 0px;
+}
+.shop-courses-title button {
+  font-size: 18px;
+  padding: 9px 10px;
+}
+.trending-section-courses {
+  gap: 35px;
+}
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width: 900px) {
@@ -691,6 +736,32 @@
     font-size: 16px;
     margin-bottom: 16px;
   }
+
+  /* ****** test quiz page*********** */
+  section.testquiz-section {
+    margin-top: 85px;
+}
+.test-section {
+  gap: 65px;
+}
+  .testquiz-title {
+    height: 140px;
+}
+.testquiz-title h2 {
+    font-size: 25px;
+}
+.testquiz-online-1 h2{
+    font-size: 18px;
+}
+.testquiz-online-2 h2 {
+    font-size: 18px;
+}
+.testquiz-online-3 h2 {
+    font-size: 18px;
+}
+.testquiz-online-4 h2 {
+    font-size: 18px;
+}
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -1032,6 +1103,20 @@
   .find-us-loaction iframe {
     height: 370px;
   }
+  /* ****** test quiz page*********** */
+  section.testquiz-section {
+    margin-top: 80px;
+}
+.testquiz-title {
+    height: 100px;
+}
+.testquiz-title h2 {
+    font-size: 22px;
+}
+.test-section {
+    gap: 35px;
+margin: 45px auto;
+}
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -1446,6 +1531,13 @@
   .article-related h3 {
     font-size: 18px;
   }
+  /* ****** test quiz page*********** */
+  .testquiz-title h2 {
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
 }
 @media (max-width: 340px) {
   /* *********Header Responsive css************* */
@@ -1527,5 +1619,12 @@
   /* ********Contact page************* */
   .find-us-loaction iframe {
     height: 260px;
+  }
+    /* ****** test quiz page*********** */
+    .testquiz-title h2 {
+      font-size: 17px;
+  }
+  .testquiz-title {
+      height: 85px;
   }
 }
