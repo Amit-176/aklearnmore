@@ -957,7 +957,7 @@ section.courses-section {
 }
 section.shop-courses {
   width: 90%;
-  height: 460px;
+  height: auto;
   margin: auto;
   /* background: aqua; */
   display: flex;

@@ -338,22 +338,8 @@
   justify-content: center;
 }
   /* **********Courses page responsive************* */
-  section.shop-courses {
-    gap: 20px;
-}
 .shop-courses-title {
   padding: 20px;
-}
-.shop-title h2 {
-  font-size: 40px;
-  margin: 30px 0px;
-}
-.shop-courses-img img {
-  width: 420px;
-}
-.shop-courses-title h2 {
-  font-size: 40px;
-  margin: 18px 0px;
 }
 .shop-courses-title button {
   font-size: 18px;
@@ -362,6 +348,27 @@
 .trending-section-courses {
   gap: 35px;
 }
+.shop-title h2 {
+  font-size: 35px;
+  margin: 25px 0px;
+}
+.shop-courses-title h2 {
+  font-size: 35px;
+  margin: 14px 0px;
+}
+.shop-courses-img img {
+  width: 420px;
+  height: 90%;
+}
+section.trending-section h2 {
+  font-size: 25px;
+  padding: 6px 12px 30px;
+}
+section.shop-courses {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width: 900px) {
@@ -762,6 +769,43 @@
 .testquiz-online-4 h2 {
     font-size: 18px;
 }
+ /* **********Courses page responsive************* */
+ .shop-title h2 {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.shop-courses-title h2 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.shop-courses-title p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.shop-courses-img img {
+  width: 320px;
+  height: 70%;
+}
+.trending-section-courses {
+  padding: 10px 10px 20px;
+}
+.shop-courses-title button {
+  font-size: 16px;
+  padding: 7px 8px;
+}
+.trending-section-courses-2-part-1 img {
+  height: 190px;
+}
+.trending-section-courses-2-part-2 img {
+  height: 190px;
+}
+.trending-section-courses h3 {
+  font-size: 18px;
+}
+.trending-section-courses p {
+  font-size: 16px;
+}
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -1117,6 +1161,27 @@
     gap: 35px;
 margin: 45px auto;
 }
+/* ****** Courses page responsive*********** */
+.shop-title h2 {
+  font-size: 25px;
+  margin: 12px 0px;
+}
+.shop-courses-img img {
+  width: 275px;
+}
+.shop-courses-title button {
+  font-size: 14px;
+}
+section.trending-section h2 {
+  font-size: 22px;
+  padding: 6px 12px 20px;
+}
+.trending-section-courses-1 {
+  width: 55%;
+}
+.trending-section-courses-2 {
+  width: 45%;
+}
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -1377,6 +1442,49 @@ margin: 45px auto;
   .find-us-text {
     width: 95%;
   }
+/* **********Courses Page responsive css********** */
+  .shop-courses-title h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.shop-courses-title p {
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.shop-courses-img {
+    all: inherit;
+}
+.shop-courses-img img {
+    width: 340px;
+    height: 360px;
+}
+section.shop-courses {
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.shop-courses-title {
+    padding: 0px 20px 20px;
+}
+.trending-section-courses {
+ flex-wrap: wrap;
+}
+.trending-section-courses-1 {
+  width: 100%;
+}
+.trending-section-courses-2 {
+  width: 100%;
+}
+.trending-section-courses-1 img {
+  height: 300px;
+}
+.trending-section-courses-2-part-1 img {
+  height: 255px;
+}
+.trending-section-courses-2-part-2 img {
+  height: 255px;
+}
 }
 /* **************** For medium-sized mobile devices.****************** */
 @media (max-width: 480px) {
@@ -1538,6 +1646,24 @@ margin: 45px auto;
     word-spacing: 0px;
     letter-spacing: 0px;
 }
+/* **********Courses Page responsive css********** */
+.shop-title h2 {
+  font-size: 22px;
+  margin: 6px 0px;
+}
+.shop-courses-title {
+  padding: 0;
+}
+.shop-courses-title p {
+  line-height: 23px;
+  margin-bottom: 19px;
+}
+.shop-courses-img img {
+  height: 290px;
+}
+.trending-section-courses-2-part-1 {
+  margin-bottom: 25px;
+}
 }
 @media (max-width: 340px) {
   /* *********Header Responsive css************* */
@@ -1575,7 +1701,7 @@ margin: 45px auto;
   }
   .footer-copyride-symbole p {
     padding-top: 6px;
-    font-size: 18px;
+    font-size: 14px;
     word-spacing: 0px;
     letter-spacing: 0px;
     padding-bottom: 10px;
@@ -1592,6 +1718,9 @@ margin: 45px auto;
     line-height: 40px;
     font-size: 14px;
   }
+  .underline {
+    width: 88px;
+}
   /* **********Recent Section responsive css*************** */
   .recent-title-description-1 p {
     padding: 0px 1px;
@@ -1627,4 +1756,21 @@ margin: 45px auto;
   .testquiz-title {
       height: 85px;
   }
+  /* **********Courses Page responsive css********** */
+  .shop-courses-img img {
+    width: 100%;
+    height:250px
+}
+.trending-section-courses-1 img {
+    height: 250px;
+}
+.trending-section-courses-2-part-1 img {
+    height: 200px;
+}
+.trending-section-courses-2-part-2 img {
+    height: 200px;
+}
+.shop-courses-title button {
+  padding: 5px 4px;
+}
 }
