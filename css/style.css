@@ -1572,9 +1572,8 @@ section.test-computer-basic-section {
   color: #fff00e;
 }
 .test-computer-basic {
-  width: 80%;
+  width: 95%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 60px auto;
