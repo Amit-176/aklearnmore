@@ -88,6 +88,13 @@
 .shop-title h2 {
     font-size: 45px;
 }
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic-title {
+  height: 185px;
+}
+.test-computer-basic-content h3 {
+  font-size: 18px;
+}
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -368,7 +375,27 @@ section.shop-courses {
   gap: 20px;
   margin-bottom: 20px;
 }
-
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic-title h2 {
+  font-size: 35px;
+  padding: 15px;
+}
+.test-computer-basic-content p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.test-computer-basic {    
+  gap: 10px;
+  margin: 40px auto;
+}
+.test-computer-basic-content h3 {
+  padding-bottom: 4px;
+  font-size: 20px;
+}
+.test-computer-basic-content button {
+  padding: 7px 11px;
+  font-size: 14px;
+}
 }
 /* ********************Small desktops and large tablets.************************ */
 @media (max-width: 900px) {
@@ -806,6 +833,21 @@ section.shop-courses {
 .trending-section-courses p {
   font-size: 16px;
 }
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic {
+  gap: 30px;
+  flex-wrap: wrap;
+}
+section.test-computer-basic-section {
+  margin-top: 85px;
+}
+.test-computer-basic-title h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+.test-computer-basic-title p {
+  width: 85%;
+}
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -1182,6 +1224,13 @@ section.trending-section h2 {
 .trending-section-courses-2 {
   width: 45%;
 }
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic-title h2 {
+  font-size: 25px;
+}
+.test-computer-basic-title p {
+  font-size: 17px;
+}
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -1463,6 +1512,7 @@ section.trending-section h2 {
 section.shop-courses {
   margin-bottom: 40px;
   flex-wrap: wrap;
+  gap: 0px;
 }
 .shop-courses-title {
     padding: 0px 20px 20px;
@@ -1484,6 +1534,17 @@ section.shop-courses {
 }
 .trending-section-courses-2-part-2 img {
   height: 255px;
+}
+/* **********test-computer-basic page responsive************* */
+
+section.test-computer-basic-section {
+  margin-top: 80px;
+}
+.test-computer-basic-title p {
+  font-size: 15px;
+}
+.test-computer-basic-title {
+  height: 165px;
 }
 }
 /* **************** For medium-sized mobile devices.****************** */
@@ -1664,6 +1725,32 @@ section.shop-courses {
 .trending-section-courses-2-part-1 {
   margin-bottom: 25px;
 }
+.shop-courses-title h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.shop-courses-title p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic-content {
+  width: 135px;
+}
+.test-computer-basic-title h2 {
+  font-size: 20px;
+  padding: 5px;
+}
+.test-computer-basic-title {
+  height: 185px;
+}
+.test-computer-basic-title p {
+  width: 95%;
+}
+.test-computer-basic {
+  gap: 20px;
+}
 }
 @media (max-width: 340px) {
   /* *********Header Responsive css************* */
@@ -1773,4 +1860,12 @@ section.shop-courses {
 .shop-courses-title button {
   padding: 5px 4px;
 }
+/* **********test-computer-basic page responsive************* */
+.test-computer-basic-title {
+  height: 205px;
+}
+.test-computer-basic {
+  column-gap: 10px;
+}
+
 }
