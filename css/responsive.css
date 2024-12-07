@@ -95,6 +95,14 @@
 .test-computer-basic-content h3 {
   font-size: 18px;
 }
+/* ****************computer-basic-quiz set1********************* */
+section.computer-basic-1-section i {
+  left: 40px;
+}
+div .quiz {
+  width: 85%;
+  padding: 28px;
+}
 }
 
 /* ***************For medium to large desktops.***************** */
@@ -394,6 +402,33 @@ section.shop-courses {
 }
 .test-computer-basic-content button {
   padding: 7px 11px;
+  font-size: 14px;
+}
+/* ****************computer-basic-quiz set1********************* */
+.quiz-container {
+  width: 55%;
+}
+.nav-container {
+  width: 45%;
+}
+section.computer-basic-1-section i {
+  top: 50px;
+  font-size: 30px;
+}
+/* ****************Result quiz test********************* */
+div#result h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+div#result {
+  width: 80%;
+}
+.review-item p {
+  font-size: 20px;
+}
+#result button {
+  margin: 25px 0px;
+  padding: 10px 10px;
   font-size: 14px;
 }
 }
@@ -848,6 +883,42 @@ section.test-computer-basic-section {
 .test-computer-basic-title p {
   width: 85%;
 }
+/* ****************computer-basic-quiz set1********************* */
+section.computer-basic-1-section {
+  margin-top: 85px;
+}
+.quiz-container #question {
+  margin: 10px auto;
+  font-size: 18px;
+  height: 40px;
+}
+div .quiz {
+  width: 90%;
+  padding: 30px 5px;
+}
+section.computer-basic-1-section i {
+  top: 17px;
+  left: 20px;
+  font-size: 25px;
+}
+.quiz-container {
+  width: 50%;
+}
+.nav-container {
+  width: 50%;
+}
+.nav-container h3 {
+  padding: 25px 19px;
+  font-size: 20px;
+}
+.quiz-container button {
+  padding: 9px 11px;
+  font-size: 14px;
+}
+/* ****************Result quiz test********************* */
+div#result {
+  width: 85%;
+}
 }
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
@@ -1231,6 +1302,36 @@ section.trending-section h2 {
 .test-computer-basic-title p {
   font-size: 17px;
 }
+/* ****************computer-basic-quiz set1********************* */
+section.computer-basic-1-section {
+  margin-top: 80px;
+}
+.nav-btn {
+  width: 30px;
+  height: 30px;
+}
+.question-container label, input {
+  padding-left: 15px;
+}
+div .quiz {
+  width: 95%;
+}
+section.computer-basic-1-section i {
+  top: 14px;
+  left: 12px;
+  font-size: 22px;
+}
+/* ****************Result quiz test********************* */
+.review-item p {
+  font-size: 18px;
+}
+div#result h2 {
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+p#score {
+ font-size: 22px;
+}
 }
 /* ***************** Small tablets and large phones.******************* */
 @media (max-width: 640px) {
@@ -1546,6 +1647,54 @@ section.test-computer-basic-section {
 .test-computer-basic-title {
   height: 165px;
 }
+/* ****************computer-basic-quiz set1********************* */
+.quiz-container {
+  width: 100%;
+}
+.nav-container {
+  width: 100%;
+}
+div .quiz {
+  flex-wrap: wrap-reverse;
+  padding: 45px 5px;
+}
+.nav-container h3 {
+  text-align: center;
+}
+.nav-container {
+  padding: 0px 25px;
+}
+.nav-btn {
+  width: 25px;
+  height: 25px;
+}
+section.computer-basic-1-section i {
+  top: 14px;
+  font-size: 20px;
+}
+#question-nav {
+  margin-bottom: 30px;  
+  gap: 15px;
+}
+.quiz-container button {
+  padding: 7px 8px;
+}
+/* ****************Result quiz test********************* */
+div#result {
+  width: 95%;
+}
+#result button {
+  margin: 20px 10px;
+  padding: 9px 7px;
+  font-size: 13px;
+}
+div#result h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+p#score {
+  font-size: 20px;
+}
 }
 /* **************** For medium-sized mobile devices.****************** */
 @media (max-width: 480px) {
@@ -1751,6 +1900,14 @@ section.test-computer-basic-section {
 .test-computer-basic {
   gap: 20px;
 }
+/* ****************Result quiz test********************* */
+div#result h2 {
+  font-size: 25px;
+  margin-bottom: 11px;
+}
+p#score {
+  font-size: 19px;
+}
 }
 @media (max-width: 340px) {
   /* *********Header Responsive css************* */
@@ -1867,5 +2024,22 @@ section.test-computer-basic-section {
 .test-computer-basic {
   column-gap: 10px;
 }
-
+/* ****************computer-basic-quiz set1********************* */
+.nav-container h3 {
+  padding: 20px 0px;
+}
+.quiz-container #question {
+  font-size: 17px;
+}
+.nav-container h3 {
+  font-size: 19px;
+}
+/* ****************Result quiz test********************* */
+.incorrect-review {
+  line-height: 25px;
+}
+div#result h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
 }

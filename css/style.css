@@ -1640,7 +1640,6 @@ div .quiz {
   width: 80%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
   padding: 32px;
 }
 .quiz-container #question {
@@ -1773,7 +1772,7 @@ p#score {
   font-weight: 500;
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* **************** Register Page CSS ********************* */
