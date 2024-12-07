@@ -2188,13 +2188,13 @@ function displayReview() {
     );
 
     reviewItem.innerHTML = `
-      <p>${question.question}</p>
-      <p>Your answer: ${
+      <p><b>${question.question}</b></p>
+      <p><b>Your answer:</b> ${
         selectedAnswers[index] !== undefined
           ? question.options[selectedAnswers[index]]
-          : "Not attempted"
+          : "<mark>Not attempted</mark>"
       }</p>
-      <p>Correct answer: ${question.options[question.correct]}</p>
+      <p><b>Correct answer:</b> ${question.options[question.correct]}</p>
     `;
 
     reviewContainer.appendChild(reviewItem);
