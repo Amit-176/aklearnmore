@@ -1967,18 +1967,25 @@ section.login-section {
   height: auto;
   position: relative;
   margin-top: 100px;
+  margin-bottom: 77px;
+}
+.login-form {
+  width: 35%;
+  background: #98a0ff;
+  border-radius: 12px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 .login-form-title {
-  width: 35%;
   margin: auto;
   text-align: center;
   padding-top: 25px;
   font-size: 30px;
   font-weight: 600;
+  color: crimson;
 }
 
 .login-form-form {
-  width: 35%;
   margin: auto;
   padding: 20px;
   text-align: center;

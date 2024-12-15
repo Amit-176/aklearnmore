@@ -441,11 +441,10 @@
     font-size: 14px;
   }
   /* ****************Login Page********************* */
-  .login-form-form {
-    width: 45%;
+  .login-form {
+    width: 41%;
   }
   .login-form-form {
-    width: 45%;
     padding: 10px 20px;
   }
   /* ****************Sign Up Page********************* */
@@ -942,16 +941,13 @@
     width: 85%;
   }
   /* ****************Login Page********************* */
+  .login-form {
+    width: 45%;
+  }
   .user-name,
   .user-password,
   .login-button {
     padding: 10px 0;
-  }
-  .login-form-title {
-    width: 50%;
-  }
-  .login-form-form {
-    width: 50%;
   }
   .sign-up-button p,
   .sign-up-button a {
@@ -970,14 +966,15 @@
     text-align: center;
   }
   .sign-up-part-1 .name i,
-.sign-up-part-1 .email i,
-.sign-up-part-1 .phone i,
-.sign-up-part-1 .address i,
-.sign-up-part-1 .password i,
-.sign-up-part-1 .confirm-password i {
-  margin-left: 90px;
+  .sign-up-part-1 .email i,
+  .sign-up-part-1 .phone i,
+  .sign-up-part-1 .address i,
+  .sign-up-part-1 .password i,
+  .sign-up-part-1 .confirm-password i {
+    margin-left: 90px;
+  }
 }
-}
+
 /* ********************Smaller tablets.******************** */
 @media (max-width: 720px) {
   /* **********Header responsive css********** */
@@ -1392,11 +1389,21 @@
     font-size: 22px;
   }
   /* ****************Login Page********************* */
-  .login-form-title {
-    width: 55%;
+  .login-button button {
+    font-size: 18px;
+    padding: 14px;
   }
-  .login-form-form {
-    width: 55%;
+  .user-name,
+  .user-password,
+  .login-button {
+    padding: 5px 0;
+  }
+  .login-form .user-name input,
+  .user-password input {
+    font-size: 17px;
+  }
+  .login-form-title {
+    font-size: 20px;
   }
   /* ****************Sign Up Page********************* */
   section.sign-up-section {
@@ -1772,11 +1779,10 @@
   }
   /* ****************Login Page********************* */
   .login-form-title {
-    width: 75%;
     font-size: 24px;
   }
-  .login-form-form {
-    width: 75%;
+  .login-form {
+    width: 65%;
   }
   /* ****************Sign Up Page********************* */
   .sign-up {
@@ -2013,11 +2019,10 @@
   }
   /* ****************Login Page********************* */
   .login-form-title {
-    width: 95%;
     font-size: 18px;
   }
-  .login-form-form {
-    width: 95%;
+  .login-form {
+    width: 85%;
   }
   .user-name,
   .user-password,
@@ -2040,13 +2045,6 @@
   .login-button button {
     font-size: 20px;
     padding: 10px;
-  }
-  .login-form {
-    width: 95%;
-    background: #b6ced5;
-    border-radius: 12px;
-    margin: auto;
-    margin-bottom: 10px;
   }
   /* ****************Sign Up Page********************* */
   .sign-up-part-1 .name input,
@@ -2233,6 +2231,9 @@
   .login-form-title {
     font-size: 20px;
   }
+  .login-form {
+    width: 95%;
+  }
   .user-name,
   .user-password,
   .login-button {
@@ -2243,3 +2244,4 @@
     font-size: 15px;
   }
 }
+/* update changes */
