@@ -2018,11 +2018,15 @@
     font-size: 19px;
   }
   /* ****************Login Page********************* */
+  section.login-section {
+    margin-bottom: 55px;
+  }
   .login-form-title {
     font-size: 18px;
   }
   .login-form {
     width: 85%;
+    margin-top: 120px;
   }
   .user-name,
   .user-password,
@@ -2244,4 +2248,3 @@
     font-size: 15px;
   }
 }
-/* update changes */
