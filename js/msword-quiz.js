@@ -1997,6 +1997,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 let quizData = [];
 let selectedAnswers = [];
+let timer;
+let timeRemaining = 60 * 20; //time in seconds 1200
 
 // Load the selected practice set based on URL parameter
 function loadPracticeSet() {
@@ -2013,6 +2015,7 @@ function loadPracticeSet() {
     quizData = practiceSets[setNumber];
     selectedAnswers = new Array(quizData.length); // Initialize selected answers based on quiz data length
     loadQuestion();
+    startTimer();
   } else {
     console.error("Invalid practice set number or no set provided.");
   }
@@ -2126,6 +2129,8 @@ function showResult() {
   document.getElementById("nav-container").classList.add("hidden");
   document.getElementById("result").classList.remove("hidden");
   displayReview(); // Display the review of answers
+  clearInterval(timer);
+  document.getElementById("timer").textContent = "00:00";
 }
 
 // Display a review of the quiz answers
@@ -2164,6 +2169,31 @@ function restartQuiz() {
   document.getElementById("quiz").classList.remove("hidden");
   document.getElementById("nav-container").classList.remove("hidden");
   loadQuestion();
+  clearInterval(timer);
+  timeRemaining = 60 * 20;
+  startTimer();
+}
+
+function startTimer() {
+  timer = setInterval(function () {
+    if (timeRemaining > 0) {
+      timeRemaining--;
+      document.getElementById("timer").textContent = formatTime(timeRemaining);
+    } else {
+      clearInterval(timer);
+      alert("Time's up!");
+      showResult();
+    }
+  }, 1000);
+}
+
+// Format time in mm:ss format
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  return `${minutes < 10 ? "0" : ""}${minutes}:${
+    remainingSeconds < 10 ? "0" : ""
+  }${remainingSeconds}`;
 }
 
 // Initialize the quiz on page load
