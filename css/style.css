@@ -1618,6 +1618,7 @@ section.test-computer-basic-section {
   color: #343333;
 }
 
+
 /* **************Basic Computer -1 css ****************** */
 section.computer-basic-1-section {
   width: 100%;
@@ -1773,6 +1774,11 @@ p#score {
 }
 .hidden {
   display: none !important;
+}
+
+.quiz-timer {
+    font-size: 20px;
+    text-align: center;
 }
 
 /* **************** Register Page CSS ********************* */
