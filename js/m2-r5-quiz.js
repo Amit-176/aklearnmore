@@ -2,27 +2,32 @@ const practiceSets = {
   1: [
     {
       question: "1. What is the largest heading for an HTML element?",
+      question2: "HTML तत्व के लिए सबसे बड़ा हेडिंग क्या है?",
       options: ["H6", "head", "H1", "heading"],
       correct: 2,
     },
     {
       question:
         "2. Which of the following is the correct HTML tag for line break?",
+      question2: "निम्नलिखित में से कौन सा लाइन ब्रेक के लिए सही HTML टैग है?",
       options: ["Break", "br", "hr", "tr"],
       correct: 1,
     },
     {
       question: "3. To run HTML language programs …… software is used.",
+      question2: "HTML भाषा प्रोग्राम चलाने के लिए …… सॉफ्टवेयर का उपयोग किया जाता है।",
       options: ["Google Chrome", "Notepad", "Both A and B", "Wordpad"],
       correct: 2,
     },
     {
       question: "4. What is http in a website name?",
+      question2: "वेबसाइट नाम में http क्या है?",
       options: ["Top level domain", "website name", "the protocol", "the host"],
       correct: 2,
     },
     {
       question: "5. What is the full name of CSS?",
+      question2: "CSS का पूरा नाम क्या है?",
       options: [
         "Cascading Style Sheets",
         "Colourful style sheet",
@@ -34,27 +39,32 @@ const practiceSets = {
     {
       question:
         "6. Which of the following tag is used to linked information should be placed inside?",
+      question2: "निम्नलिखित में से किस टैग का उपयोग लिंक की गई जानकारी को अंदर रखने के लिए किया जाता है?",
       options: ["head", "div", "html", "body"],
       correct: 0,
     },
     {
       question: "7. Which property assigns an image to a list item?",
+      question2: "कौन सी प्रॉपर्टी एक सूची आइटम को एक छवि असाइन करती है?",
       options: ["list-style-image", "list-style-type", "list-style", "list"],
       correct: 0,
     },
     {
       question: "8. Which of the following is not a pair tag?",
+      question2: "निम्नलिखित में से कौन सा पेयर टैग नहीं है?",
       options: ["p", "u", "i", "img"],
       correct: 3,
     },
     {
       question:
         "9. To create a combo box (drop down box), which tag will you use?",
+      question2: "कॉम्बो बॉक्स (ड्रॉप डाउन बॉक्स) बनाने के लिए, आप किस टैग का उपयोग करेंगे?",
       options: ["<select>", "list", "<input type='dropdown'>", "all of above"],
       correct: 0,
     },
     {
       question: "10. Which tag creates a check box for a form in HTML?",
+      question2: "HTML में फॉर्म के लिए चेक बॉक्स कौन सा टैग बनाता है?",
       options: [
         "<checkbox>",
         "<input type='checkbox'>",
@@ -66,11 +76,13 @@ const practiceSets = {
     {
       question:
         "11. The special formatting codes in an HTML document used to present content are?",
+      question2: "HTML दस्तावेज़ में सामग्री प्रस्तुत करने के लिए उपयोग किए जाने वाले विशेष फॉर्मेटिंग कोड क्या हैं?",
       options: ["tags", "attributes", "values", "none of the above"],
       correct: 0,
     },
     {
       question: "12. In an HTML document, the tags:",
+      question2: "HTML दस्तावेज़ में, टैग:",
       options: [
         "Should be written in upper case",
         "Should be written in lower case",
@@ -81,16 +93,19 @@ const practiceSets = {
     },
     {
       question: "13. Which of the following is not a style tag?",
+      question2: "निम्नलिखित में से कौन सा स्टाइल टैग नहीं है?",
       options: ["b", "tt", "i", "all of the above"],
       correct: 3,
     },
     {
       question: "14. How can you make a bulleted list?",
+      question2: "आप बुलेटेड लिस्ट कैसे बना सकते हैं?",
       options: ["list", "nl", "ul", "ol"],
       correct: 2,
     },
     {
       question: "15. What is the correct HTML for adding a background color?",
+      question2: "बैकग्राउंड कलर जोड़ने के लिए सही HTML क्या है?",
       options: [
         "<body color='yellow'>",
         "<background>yellow</background>",
@@ -101,17 +116,20 @@ const practiceSets = {
     },
     {
       question: "16. HTML tags are surrounded by ___ brackets.",
+      question2: "HTML टैग ___ ब्रैकेट्स से घिरे होते हैं।",
       options: ["Angle", "Round", "Square", "Curly"],
       correct: 0,
     },
     {
       question:
         "17. What will be the output of the following JavaScript code?\n\n<script>\nvar js = 10;\njs *= 5;\ndocument.getElementById('demo').innerHTML = js;\n</script>",
+      question2: "निम्नलिखित जावास्क्रिप्ट कोड का आउटपुट क्या होगा?\n\n<script>\nvar js = 10;\njs *= 5;\ndocument.getElementById('demo').innerHTML = js;\n</script>",
       options: ["10", "50", "5", "Error"],
       correct: 1,
     },
     {
       question: "18. Which of the following is not a JavaScript data type?",
+      question2: "निम्नलिखित में से कौन सा जावास्क्रिप्ट डेटा टाइप नहीं है?",
       options: [
         "Null type",
         "Undefined type",
@@ -122,6 +140,7 @@ const practiceSets = {
     },
     {
       question: "19. Why is a JavaScript Engine needed?",
+      question2: "जावास्क्रिप्ट इंजन की आवश्यकता क्यों है?",
       options: [
         "Both Compiling & Interpreting the JavaScript",
         "Parsing the JavaScript",
@@ -132,6 +151,7 @@ const practiceSets = {
     },
     {
       question: "20. Which of the following is not an error in JavaScript?",
+      question2: "निम्नलिखित में से कौन सा जावास्क्रिप्ट में एक त्रुटि नहीं है?",
       options: [
         "Missing of Bracket",
         "Division by zero",
@@ -474,22 +494,50 @@ let score = 0;
 let quizData = [];
 let selectedAnswers = [];
 let timer;
-let timeRemaining = 60 * 20; //time in seconds 1200
+let timeRemaining = 60 * 10; // 1200 seconds (20 minutes)
+let attemptedCount = 0; 
+let unattemptedCount = 0; 
+
+function updateAttemptCounts() {
+  const attemptedCount = selectedAnswers.filter(answer => answer !== undefined).length;
+  const unattemptedCount = quizData.length - attemptedCount;
+
+  document.getElementById("attempted-count").textContent = attemptedCount;
+  document.getElementById("unattempted-count").textContent = unattemptedCount;
+}
+function animateQuestionTransition(direction, callback) {
+  const questionContainer = document.getElementById("question-container");
+
+  if (!questionContainer) {
+      console.error("Error: '#question-container' element not found.");
+      callback(); // Ensure callback runs even if animation fails
+      return;
+  }
+
+  // Slide out animation
+  questionContainer.classList.add(direction === "next" ? "slide-out-left" : "slide-out-right");
+
+  setTimeout(() => {
+      callback();
+      questionContainer.classList.remove("slide-out-left", "slide-out-right");
+      questionContainer.classList.add(direction === "next" ? "slide-in-right" : "slide-in-left");
+
+      setTimeout(() => {
+          questionContainer.classList.remove("slide-in-right", "slide-in-left");
+      }, 500); // Match with CSS duration
+  }, 500); // Match with CSS duration
+}
+
+
 
 // Load the selected practice set based on URL parameter
 function loadPracticeSet() {
   const urlParams = new URLSearchParams(window.location.search);
   const setNumber = urlParams.get("set");
 
-  // Debugging line to see all URL parameters
-  //console.log("URL Parameters:", Array.from(urlParams.entries()));
-
-  // Check if setNumber is retrieved correctly
-  //console.log(`Set Number: ${setNumber}`); // Should log the set number or null
-
-  if (practiceSets[setNumber]) {
+  if (practiceSets && practiceSets[setNumber]) {
     quizData = practiceSets[setNumber];
-    selectedAnswers = new Array(quizData.length); // Initialize selected answers based on quiz data length
+    selectedAnswers = new Array(quizData.length).fill(undefined);
     loadQuestion();
     startTimer();
   } else {
@@ -506,100 +554,95 @@ function generateQuestionNav() {
     navButton.textContent = index + 1;
     navButton.classList.add("nav-btn");
 
-    // Add classes based on whether the question is attempted
     if (selectedAnswers[index] === undefined) {
       navButton.classList.add("unattempted");
-    } else {
+  } else {
       navButton.classList.add("attempted");
-    }
+  }
 
-    if (index === currentQuestionIndex) {
+  if (index === currentQuestionIndex) {
       navButton.classList.add("active");
-    }
+  }
 
-    navButton.onclick = () => loadQuestionByIndex(index);
-    navContainer.appendChild(navButton);
+  navButton.onclick = () => {
+      saveSelectedAnswer(); // Save answer before switching
+      loadQuestionWithAnimation(index, index > currentQuestionIndex ? "next" : "prev");
+      updateAttemptCounts(); // Update counts
+  };
+
+  navContainer.appendChild(navButton);
+});
+updateAttemptCounts();
+}
+// Load a specific question with animation
+function loadQuestionWithAnimation(index, direction) {
+  animateQuestionTransition(direction, () => {
+    currentQuestionIndex = index;
+    loadQuestion();
   });
 }
-
-// Load a specific question by index
-function loadQuestionByIndex(index) {
-  currentQuestionIndex = index;
-  loadQuestion();
-}
-
 // Load the current question and update UI
 function loadQuestion() {
   const currentQuestion = quizData[currentQuestionIndex];
   document.getElementById("question").textContent = currentQuestion.question;
-  document.getElementById("opt1-label").textContent =
-    currentQuestion.options[0];
-  document.getElementById("opt2-label").textContent =
-    currentQuestion.options[1];
-  document.getElementById("opt3-label").textContent =
-    currentQuestion.options[2];
-  document.getElementById("opt4-label").textContent =
-    currentQuestion.options[3];
-
+  document.getElementById("question2").textContent = currentQuestion.question2;
+  document.getElementById("opt1-label").textContent = '(A) '+
+  currentQuestion.options[0];
+  document.getElementById("opt2-label").textContent = '(B) '+
+  currentQuestion.options[1];
+  document.getElementById("opt3-label").textContent = '(C) '+
+   currentQuestion.options[2];
+  document.getElementById("opt4-label").textContent =  '(D) '+
+  currentQuestion.options[3];
   const inputs = document.querySelectorAll('input[name="option"]');
   inputs.forEach((input) => (input.checked = false));
   if (selectedAnswers[currentQuestionIndex] !== undefined) {
     inputs[selectedAnswers[currentQuestionIndex]].checked = true;
   }
-
-  // Show/hide navigation buttons based on current question index
+  // Show/hide navigation buttons
   document
-    .getElementById("prev-btn")
-    .classList.toggle("hidden", currentQuestionIndex === 0);
+  .getElementById("prev-btn")
+  .classList.toggle("hidden", currentQuestionIndex === 0);
   document
-    .getElementById("next-btn")
-    .classList.toggle("hidden", currentQuestionIndex === quizData.length - 1);
+  .getElementById("next-btn")
+  .classList.toggle("hidden", currentQuestionIndex === quizData.length - 1);
   document
-    .getElementById("submit-btn")
-    .classList.toggle("hidden", currentQuestionIndex < quizData.length - 1);
-
+  .getElementById("submit-btn")
+  .classList.toggle("hidden", currentQuestionIndex < quizData.length - 1);
   generateQuestionNav(); // Generate the question navigation
-}
-
 // Move to the next question
 function nextQuestion() {
-  const selectedOption = document.querySelector('input[name="option"]:checked');
-  if (selectedOption) {
-    selectedAnswers[currentQuestionIndex] = parseInt(selectedOption.value);
-  }
+  saveSelectedAnswer();
   if (currentQuestionIndex < quizData.length - 1) {
-    currentQuestionIndex++;
-    loadQuestion();
+    loadQuestionWithAnimation(currentQuestionIndex + 1, "next");
   }
 }
-
 // Move to the previous question
 function previousQuestion() {
+  saveSelectedAnswer();
+  if (currentQuestionIndex > 0) {
+    loadQuestionWithAnimation(currentQuestionIndex - 1, "prev");
+  }
+}
+// Save the selected answer for the current question
+function saveSelectedAnswer() {
   const selectedOption = document.querySelector('input[name="option"]:checked');
   if (selectedOption) {
     selectedAnswers[currentQuestionIndex] = parseInt(selectedOption.value);
   }
-  if (currentQuestionIndex > 0) {
-    currentQuestionIndex--;
-    loadQuestion();
-  }
+  updateAttemptCounts(); 
 }
 
 // Show the result after quiz completion
 function showResult() {
-  const selectedOption = document.querySelector('input[name="option"]:checked');
-  if (selectedOption) {
-    selectedAnswers[currentQuestionIndex] = parseInt(selectedOption.value);
-  }
+  saveSelectedAnswer();
 
   score = selectedAnswers.reduce((acc, answer, index) => {
     return answer === quizData[index].correct ? acc + 1 : acc;
   }, 0);
-
   document.getElementById(
     "score"
   ).textContent = `You scored ${score} out of ${quizData.length}.`;
-
   // Hide quiz container and show result
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("nav-container").classList.add("hidden");
@@ -608,7 +651,6 @@ function showResult() {
   clearInterval(timer);
   document.getElementById("timer").textContent = "00:00";
 }
-
 // Display a review of the quiz answers
 function displayReview() {
   const reviewContainer = document.getElementById("review");
@@ -618,24 +660,23 @@ function displayReview() {
     const reviewItem = document.createElement("div");
 
     reviewItem.classList.add(
-      "review-item",
+      "review-item", 
       isCorrect ? "correct-review" : "incorrect-review"
     );
-
     reviewItem.innerHTML = `
-      <p>${question.question}</p>
-      <p>Your answer: ${
+      <p><strong>Question:</strong> 
+      ${question.question}</p>
+      <p> ${question.question2}</p>
+      <p><strong>Your answer:</strong> ${
         selectedAnswers[index] !== undefined
-          ? question.options[selectedAnswers[index]]
-          : "Not attempted"
+         ? question.options[selectedAnswers[index]] 
+         : "Not attempted"
       }</p>
-      <p>Correct answer: ${question.options[question.correct]}</p>
+      <p><strong>Correct answer:</strong> ${question.options[question.correct]}</p>
     `;
-
     reviewContainer.appendChild(reviewItem);
   });
 }
-
 // Restart the quiz
 function restartQuiz() {
   currentQuestionIndex = 0;
@@ -645,32 +686,35 @@ function restartQuiz() {
   document.getElementById("quiz").classList.remove("hidden");
   document.getElementById("nav-container").classList.remove("hidden");
   loadQuestion();
-  clearInterval(timer);
-  timeRemaining = 60 * 20;
-  startTimer();
+  resetTimer();
 }
 
+// Start the timer
 function startTimer() {
-  timer = setInterval(function () {
+  clearInterval(timer);
+  timer = setInterval(() => {
     if (timeRemaining > 0) {
       timeRemaining--;
       document.getElementById("timer").textContent = formatTime(timeRemaining);
     } else {
       clearInterval(timer);
-      alert("Time's up!");
+      // alert("Time's up!");
       showResult();
     }
   }, 1000);
 }
 
+// Reset the timer
+function resetTimer() {
+  clearInterval(timer);
+  timeRemaining = 60 * 10;
+  startTimer();
+}
 // Format time in mm:ss format
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = seconds % 60;
-  return `${minutes < 10 ? "0" : ""}${minutes}:${
-    remainingSeconds < 10 ? "0" : ""
-  }${remainingSeconds}`;
+  return `${minutes < 10 ? "0" : ""}${minutes}:${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
 }
-
 // Initialize the quiz on page load
 document.addEventListener("DOMContentLoaded", loadPracticeSet);

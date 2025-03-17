@@ -1631,32 +1631,41 @@ section.computer-basic-1-section i {
   position: absolute;
   left: 82px;
   top: 38px;
-  font-size: 40px;
+  font-size: 25px;
 }
 .container {
   width: 100%;
-  /* height: 100vh; */
 }
 div .quiz {
   width: 80%;
   margin: auto;
   display: flex;
   padding: 32px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 .quiz-container #question {
-  margin: 10px auto;
-  font-size: 25px;
-  font-weight: 600;
-  height: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-bottom: 5px;
+}
+.quiz-container #question2 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-bottom: 8px;
 }
 .quiz-container {
   width: 60%;
   padding: 12px;
+  overflow: hidden;
+  box-shadow: 1px 1px 14px 6px gray;
+  border-radius: 16px;
 }
-.question-container label,
-input {
-  margin: 9px auto;
-  padding: 15px;
+.question-container input {
+  display: none;
 }
 .quiz-container button {
   margin-top: 20px;
@@ -1676,13 +1685,14 @@ input {
   padding: 10px 25px;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  /* overflow-y: scroll; */
+  box-shadow: 1px 1px 14px 6px gray;
+  border-radius: 16px;
 }
 .nav-container h3 {
-  padding: 25px 50px;
-  font-size: 23px;
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 #question-nav {
   margin-top: -7px;
@@ -1693,12 +1703,11 @@ input {
   justify-content: flex-start;
 }
 .nav-btn.unattempted {
-  background-color: #f44336; /* Red */
+  background-color: #f44336; 
   color: white;
 }
-
 .nav-btn.attempted {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   color: white;
 }
 .nav-btn.active {
@@ -1777,10 +1786,96 @@ p#score {
 }
 
 .quiz-timer {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin-left: 500px;
+  width: 70px;
+  background-color: #e70c0c;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2px;
+  color: #fff;
+}
+.question-container {
+  transition: transform 0.5s ease-in-out;
+}
+.slide-out-left {
+  transform: translateX(-100%);
+}
+.slide-out-right {
+  transform: translateX(100%);
+}
+.slide-in-left {
+  transform: translateX(-100%);
+  animation: slideInFromLeft 0.5s forwards;
+}
+.slide-in-right {
+  transform: translateX(100%);
+  animation: slideInFromRight 0.5s forwards;
+}
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
 }
 
+@keyframes slideInFromRight {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+.status-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.status-attempted ,.status-unattempted {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.status-attempted p {
+  background-color: green;
+  color: #ffff;
+  padding: 5px;
+}
+.status-unattempted p {
+  background-color: rgb(182, 2, 2);
+  color: #ffff;
+  padding: 5px;
+}
+#opt1-label,#opt2-label,#opt3-label,#opt4-label {
+  display: block;
+  width: 100%;
+  border: 1px solid #80cd28;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input:checked + #opt1-label {
+  background-color: green;
+  color: #fff;
+}
+input:checked + #opt2-label {
+  background-color: green;
+  color: #fff;
+}
+input:checked + #opt3-label {
+  background-color: green;
+  color: #fff;
+}
+input:checked + #opt4-label {
+  background-color: green;
+  color: #fff;
+}
 /* **************** Register Page CSS ********************* */
 section.sign-up-section {
   width: 100%;

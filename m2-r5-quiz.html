@@ -65,28 +65,44 @@
         <div class="quiz">
           <div id="quiz" class="quiz-container">
             <div class="quiz-timer" id="timer">20:00</div>
-            <div id="question">Question will appear here</div>
-            <div class="question-container">
-              <input type="radio" id="opt1" name="option" value="0" />
-              <label for="opt1" id="opt1-label"></label><br />
-              <input type="radio" id="opt2" name="option" value="1" />
-              <label for="opt2" id="opt2-label"></label><br />
-              <input type="radio" id="opt3" name="option" value="2" />
-              <label for="opt3" id="opt3-label"></label><br />
-              <input type="radio" id="opt4" name="option" value="3" />
-              <label for="opt4" id="opt4-label"></label>
-            </div>
-            <button id="prev-btn" class="hidden" onclick="previousQuestion()">
-              Previous
-            </button>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
-            <button id="submit-btn" onclick="showResult()" class="hidden">
-              Submit
-            </button>
-          </div>
-
+            
+            <!-- Wrap question and options inside a common container for animation -->
+            <div id="question-container" class="question-container">
+                <div id="question">Question will appear here</div>
+                <div id="question2">Question will appear here</div>
+                <div class="options-container">
+                  <input type="radio" id="opt1" name="option" value="0" />
+                    <label for="opt1" id="opt1-label"></label><br />
+                    <input type="radio" id="opt2" name="option" value="1" />
+                    <label for="opt2" id="opt2-label"></label><br />
+                    <input type="radio" id="opt3" name="option" value="2" />
+                    <label for="opt3" id="opt3-label"></label><br />
+                    <input type="radio" id="opt4" name="option" value="3" />
+                    <label for="opt4" id="opt4-label"></label>
+                </div>
+              </div>
+                <!-- Buttons are also inside the animated container -->
+                <div class="navigation-buttons">
+                    <button id="prev-btn" class="hidden" onclick="previousQuestion()">Previous</button>
+                    <button id="next-btn" onclick="nextQuestion()">Next</button>
+                    <button id="submit-btn" onclick="showResult()" class="hidden">Submit</button>
+                </div>
+            
+        </div>
+        
+        
           <div id="nav-container" class="nav-container">
             <h3>Question Navigation</h3>
+            <div class="status-question">
+              <div class="status-attempted">
+                <p>Attempted</p>
+                <span id="attempted-count">0</span>
+              </div>
+              <div class="status-unattempted">
+                <p>Unattempted</p>
+                <span id="unattempted-count">20</span>
+              </div>
+          </div>
             <div id="question-nav"></div>
           </div>
         </div>
