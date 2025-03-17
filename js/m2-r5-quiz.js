@@ -610,6 +610,7 @@ function loadQuestion() {
   .getElementById("submit-btn")
   .classList.toggle("hidden", currentQuestionIndex < quizData.length - 1);
   generateQuestionNav(); // Generate the question navigation
+}
 // Move to the next question
 function nextQuestion() {
   saveSelectedAnswer();
