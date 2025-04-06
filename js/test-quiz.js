@@ -4565,21 +4565,22 @@ function animateQuestionTransition(direction, callback) {
 
 
 // Load the selected practice set based on URL parameter
-function loadPracticeSet() { 
+function loadPracticeSet() { debugger
   const urlParams = new URLSearchParams(window.location.search);
   const setNumber = urlParams.get("set");
   const currentPracticeQuiz = urlParams.get("quiz");
-  if(currentPracticeQuiz=='m2-r5-quiz' && currentPracticeQuiz){
+  (document.getElementById('go-back')).href=currentPracticeQuiz + '.html';
+  if(currentPracticeQuiz=='test-m2-r5' && currentPracticeQuiz){
     quizData = m2r5quizPracticeSets[setNumber];
     selectedAnswers = new Array(quizData.length).fill(undefined);
     loadQuestion();
     startTimer();
-  }else if(currentPracticeQuiz=='msword-quiz' && currentPracticeQuiz){
+  }else if(currentPracticeQuiz=='test-msword' && currentPracticeQuiz){
     quizData = mswordquizPracticeSets[setNumber];
     selectedAnswers = new Array(quizData.length).fill(undefined);
     loadQuestion();
     startTimer();
-  }else if(currentPracticeQuiz=='computer-basic-quiz' && currentPracticeQuiz){
+  }else if(currentPracticeQuiz=='test-computer-basic' && currentPracticeQuiz){
     quizData = computerbasicquizPracticeSets[setNumber];
     selectedAnswers = new Array(quizData.length).fill(undefined);
     loadQuestion();
